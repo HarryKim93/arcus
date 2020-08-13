@@ -4,4 +4,3 @@ include/
 lib/
 share/
 deps/
-zookeeper
