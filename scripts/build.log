@@ -1,0 +1,2783 @@
+Working directory is /home/developer/arcus.
+~/arcus ~/arcus/scripts
+Submodule 'clients/c' (https://github.com/naver/arcus-c-client.git) registered for path 'clients/c'
+Submodule 'clients/java' (https://github.com/naver/arcus-java-client.git) registered for path 'clients/java'
+Submodule 'server' (https://github.com/naver/arcus-memcached.git) registered for path 'server'
+Submodule 'zookeeper' (https://github.com/naver/arcus-zookeeper.git) registered for path 'zookeeper'
+Initialized empty Git repository in /home/developer/arcus/clients/c/.git/
+Submodule path 'clients/c': checked out '561cc85eada06b0ca895fbd2a39db737d40e38ff'
+Initialized empty Git repository in /home/developer/arcus/clients/java/.git/
+Submodule path 'clients/java': checked out '2feec4d000ab13f956ea19d9b9c2cc67b12713b3'
+Initialized empty Git repository in /home/developer/arcus/server/.git/
+Submodule path 'server': checked out '775646de94885ce9b1f036248361faa71f51fb97'
+Initialized empty Git repository in /home/developer/arcus/zookeeper/.git/
+Submodule path 'zookeeper': checked out '1119e2441c8ef859595d53c48c385ab9b1a29f13'
+~/arcus/scripts
+===== server ======
+~/arcus/server ~/arcus/scripts
+config/autorun.sh: running `/usr/bin/libtoolize --automake --copy --force' 
+config/autorun.sh: running `/usr/bin/aclocal-1.11 -I m4' 
+config/autorun.sh: running `/usr/bin/autoheader' 
+config/autorun.sh: running `/usr/bin/automake-1.11 --add-missing --copy --force' 
+configure.ac:121: installing `./compile'
+configure.ac:5: installing `./config.guess'
+configure.ac:5: installing `./config.sub'
+configure.ac:7: installing `./install-sh'
+configure.ac:7: installing `./missing'
+Makefile.am: installing `./depcomp'
+config/autorun.sh: running `/usr/bin/autoconf' 
+---
+Configured with the following tools:
+  * libtoolize (GNU libtool) 2.2.6b
+  * aclocal (GNU automake) 1.11.1
+  * autoheader (GNU Autoconf) 2.63
+  * automake (GNU automake) 1.11.1
+  * autoconf (GNU Autoconf) 2.63
+---
+~/arcus/scripts
+===== client ======
+~/arcus/clients/c ~/arcus/scripts
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+m4/pandora_canonical.m4:269: warning: macro `AM_PO_SUBDIRS' not found in library
+autoreconf: configure.ac: tracing
+configure.ac:46: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:46: You should run autoupdate.
+../../lib/autoconf/general.m4:2470: AC_TRY_COMPILE is expanded from...
+m4/pandora_cstdint.m4:12: PANDORA_CXX_CSTDINT is expanded from...
+m4/pandora_canonical.m4:33: PANDORA_CANONICAL_TARGET is expanded from...
+configure.ac:46: the top level
+m4/pandora_cinttypes.m4:12: PANDORA_CXX_CINTTYPES is expanded from...
+configure.ac:46: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2576: AC_RUN_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:505: AS_IF is expanded from...
+../../lib/autoconf/general.m4:1974: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:1994: AC_CACHE_CHECK is expanded from...
+m4/lib-prefix.m4:162: AC_LIB_PREPARE_MULTILIB is expanded from...
+m4/lib-prefix.m4:22: AC_LIB_PREFIX is expanded from...
+configure.ac:94: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:94: You should run autoupdate.
+../../lib/autoconf/general.m4:2527: AC_TRY_LINK is expanded from...
+m4/lib-link.m4:56: AC_LIB_HAVE_LINKFLAGS is expanded from...
+m4/pandora_have_libevent.m4:11: _PANDORA_SEARCH_LIBEVENT is expanded from...
+m4/pandora_have_libevent.m4:39: _PANDORA_HAVE_LIBEVENT is expanded from...
+m4/pandora_have_libevent.m4:51: PANDORA_HAVE_LIBEVENT is expanded from...
+configure.ac:94: the top level
+configure.ac:108: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:108: You should run autoupdate.
+m4/byteorder.m4:1: DETECT_BYTEORDER is expanded from...
+configure.ac:108: the top level
+configure.ac:115: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:115: You should run autoupdate.
+m4/protocol_binary.m4:5: PROTOCOL_BINARY_TEST is expanded from...
+configure.ac:115: the top level
+configure.ac:117: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:117: You should run autoupdate.
+m4/pandora_have_libinnodb.m4:6: _PANDORA_SEARCH_LIBINNODB is expanded from...
+m4/pandora_have_libinnodb.m4:56: PANDORA_HAVE_LIBINNODB is expanded from...
+configure.ac:117: the top level
+configure.ac:118: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:118: You should run autoupdate.
+m4/pandora_have_sasl.m4:6: _PANDORA_SEARCH_SASL is expanded from...
+m4/pandora_have_sasl.m4:51: PANDORA_HAVE_SASL is expanded from...
+configure.ac:118: the top level
+configure.ac:149: warning: The macro `AC_LANG_SAVE' is obsolete.
+configure.ac:149: You should run autoupdate.
+../../lib/autoconf/lang.m4:148: AC_LANG_SAVE is expanded from...
+m4/ac_cxx_header_stdcxx_98.m4:21: AC_CXX_HEADER_STDCXX_98 is expanded from...
+configure.ac:149: the top level
+configure.ac:149: warning: The macro `AC_LANG_CPLUSPLUS' is obsolete.
+configure.ac:149: You should run autoupdate.
+../../lib/autoconf/c.m4:128: AC_LANG_CPLUSPLUS is expanded from...
+configure.ac:149: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:149: You should run autoupdate.
+configure.ac:149: warning: The macro `AC_LANG_RESTORE' is obsolete.
+configure.ac:149: You should run autoupdate.
+../../lib/autoconf/lang.m4:157: AC_LANG_RESTORE is expanded from...
+configure.ac:206: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:206: You should run autoupdate.
+configure.ac:206: the top level
+configure.ac:308: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:308: You should run autoupdate.
+m4/eagain.m4:6: DETECT_EAGAIN is expanded from...
+configure.ac:308: the top level
+configure.ac:309: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:309: You should run autoupdate.
+m4/socket_send_flags.m4:9: SOCKET_SEND_FLAGS is expanded from...
+configure.ac:309: the top level
+autoreconf: running: libtoolize --copy --force
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, `config'.
+libtoolize: copying file `config/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+m4/pandora_canonical.m4:269: warning: macro `AM_PO_SUBDIRS' not found in library
+autoreconf: running: /usr/bin/autoconf --force --warnings=all
+configure.ac:46: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:46: You should run autoupdate.
+../../lib/autoconf/general.m4:2470: AC_TRY_COMPILE is expanded from...
+m4/pandora_cstdint.m4:12: PANDORA_CXX_CSTDINT is expanded from...
+m4/pandora_canonical.m4:33: PANDORA_CANONICAL_TARGET is expanded from...
+configure.ac:46: the top level
+m4/pandora_cinttypes.m4:12: PANDORA_CXX_CINTTYPES is expanded from...
+configure.ac:46: warning: AC_RUN_IFELSE called without default to allow cross compiling
+../../lib/autoconf/general.m4:2576: AC_RUN_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:505: AS_IF is expanded from...
+../../lib/autoconf/general.m4:1974: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:1994: AC_CACHE_CHECK is expanded from...
+m4/lib-prefix.m4:162: AC_LIB_PREPARE_MULTILIB is expanded from...
+m4/lib-prefix.m4:22: AC_LIB_PREFIX is expanded from...
+configure.ac:94: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:94: You should run autoupdate.
+../../lib/autoconf/general.m4:2527: AC_TRY_LINK is expanded from...
+m4/lib-link.m4:56: AC_LIB_HAVE_LINKFLAGS is expanded from...
+m4/pandora_have_libevent.m4:11: _PANDORA_SEARCH_LIBEVENT is expanded from...
+m4/pandora_have_libevent.m4:39: _PANDORA_HAVE_LIBEVENT is expanded from...
+m4/pandora_have_libevent.m4:51: PANDORA_HAVE_LIBEVENT is expanded from...
+configure.ac:94: the top level
+configure.ac:108: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:108: You should run autoupdate.
+m4/byteorder.m4:1: DETECT_BYTEORDER is expanded from...
+configure.ac:108: the top level
+configure.ac:115: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:115: You should run autoupdate.
+m4/protocol_binary.m4:5: PROTOCOL_BINARY_TEST is expanded from...
+configure.ac:115: the top level
+configure.ac:117: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:117: You should run autoupdate.
+m4/pandora_have_libinnodb.m4:6: _PANDORA_SEARCH_LIBINNODB is expanded from...
+m4/pandora_have_libinnodb.m4:56: PANDORA_HAVE_LIBINNODB is expanded from...
+configure.ac:117: the top level
+configure.ac:118: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:118: You should run autoupdate.
+m4/pandora_have_sasl.m4:6: _PANDORA_SEARCH_SASL is expanded from...
+m4/pandora_have_sasl.m4:51: PANDORA_HAVE_SASL is expanded from...
+configure.ac:118: the top level
+configure.ac:149: warning: The macro `AC_LANG_SAVE' is obsolete.
+configure.ac:149: You should run autoupdate.
+../../lib/autoconf/lang.m4:148: AC_LANG_SAVE is expanded from...
+m4/ac_cxx_header_stdcxx_98.m4:21: AC_CXX_HEADER_STDCXX_98 is expanded from...
+configure.ac:149: the top level
+configure.ac:149: warning: The macro `AC_LANG_CPLUSPLUS' is obsolete.
+configure.ac:149: You should run autoupdate.
+../../lib/autoconf/c.m4:128: AC_LANG_CPLUSPLUS is expanded from...
+configure.ac:149: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:149: You should run autoupdate.
+configure.ac:149: warning: The macro `AC_LANG_RESTORE' is obsolete.
+configure.ac:149: You should run autoupdate.
+../../lib/autoconf/lang.m4:157: AC_LANG_RESTORE is expanded from...
+configure.ac:206: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:206: You should run autoupdate.
+configure.ac:206: the top level
+configure.ac:308: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:308: You should run autoupdate.
+m4/eagain.m4:6: DETECT_EAGAIN is expanded from...
+configure.ac:308: the top level
+configure.ac:309: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:309: You should run autoupdate.
+m4/socket_send_flags.m4:9: SOCKET_SEND_FLAGS is expanded from...
+configure.ac:309: the top level
+autoreconf: running: /usr/bin/autoheader --force --warnings=all
+autoreconf: running: automake --add-missing --copy --force-missing --warnings=all
+configure.ac:46: installing `config/compile'
+configure.ac:31: installing `config/config.guess'
+configure.ac:31: installing `config/config.sub'
+configure.ac:33: installing `config/install-sh'
+configure.ac:33: installing `config/missing'
+Makefile.am: installing `config/depcomp'
+autoreconf: Leaving directory `.'
+~/arcus/scripts
+===== zookeeper ======
+~/arcus/zookeeper ~/arcus/scripts
+Buildfile: build.xml
+
+clean-contrib:
+
+clean:
+
+clean:
+     [echo] contrib: fatjar
+
+clean:
+     [echo] contrib: loggraph
+
+clean:
+     [echo] contrib: rest
+
+clean:
+     [echo] contrib: zkfuse
+
+clean:
+     [echo] contrib: zkperl
+
+clean:
+     [echo] contrib: zkpython
+
+clean:
+     [echo] contrib: zktreeutil
+
+clean:
+     [echo] contrib: ZooInspector
+
+clean-recipes:
+
+clean:
+
+clean:
+     [echo] recipes: election
+
+clean:
+     [echo] recipes: lock
+
+clean:
+     [echo] recipes: queue
+
+clean:
+
+init:
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/classes
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/lib
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/package/lib
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/test/lib
+
+jute:
+    [javac] Compiling 39 source files to /home/developer/arcus/zookeeper/build/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/src/java/generated
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/developer/arcus/zookeeper/src/java/generated/.generated
+
+init:
+
+ivy-download:
+      [get] Getting: https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+      [get] To: /home/developer/arcus/zookeeper/src/java/lib/ivy-2.2.0.jar
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/developer/arcus/zookeeper/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.5-p6
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found jline#jline;0.9.94 in maven2
+[ivy:retrieve] 	found org.jboss.netty#netty;3.2.2.Final in maven2
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar ...
+[ivy:retrieve] ... (24kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.1!slf4j-api.jar (489ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar ...
+[ivy:retrieve] .. (9kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.slf4j#slf4j-log4j12;1.6.1!slf4j-log4j12.jar (607ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.jar ...
+[ivy:retrieve] .......................... (382kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] log4j#log4j;1.2.15!log4j.jar (1142ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar ...
+[ivy:retrieve] ....... (85kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] jline#jline;0.9.94!jline.jar (589ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar ...
+[ivy:retrieve] .................................................. (767kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.jboss.netty#netty;3.2.2.Final!netty.jar (820ms)
+[ivy:retrieve] :: resolution report :: resolve 7122ms :: artifacts dl 3655ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   5   |   5   |   5   |   0   ||   5   |   5   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	5 artifacts copied, 0 already retrieved (1269kB/8ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+jute:
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+    [javac] Compiling 1 source file to /home/developer/arcus/zookeeper/build/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+
+svn-revision:
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/.revision
+     [exec] /home/developer/arcus/zookeeper/src/lastRevision.sh: line 19: svn: command not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+build-generated:
+    [javac] Compiling 56 source files to /home/developer/arcus/zookeeper/build/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+
+compile:
+    [javac] Compiling 150 source files to /home/developer/arcus/zookeeper/build/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/JLineZNodeCompletor.java:33: warning: [rawtypes] found raw type: List
+    [javac]     public int complete(String buffer, int cursor, List candidates) {
+    [javac]                                                    ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/Shell.java:276: warning: [serial] serializable class ExitCodeException has no definition of serialVersionUID
+    [javac]   public static class ExitCodeException extends IOException {
+    [javac]                 ^
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:305: warning: [rawtypes] found raw type: Class
+    [javac]                 Class consoleC = Class.forName("jline.ConsoleReader");
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:306: warning: [rawtypes] found raw type: Class
+    [javac]                 Class completorC =
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:62: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java:502: warning: [rawtypes] found raw type: ArrayList
+    [javac]                     acl == null ? new ArrayList<ACL>() : new ArrayList(acl));
+    [javac]                                                              ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java:576: warning: [deprecation] LeaderElection in org.apache.zookeeper.server.quorum has been deprecated
+    [javac]             le = new LeaderElection(this);
+    [javac]                      ^
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java:579: warning: [deprecation] AuthFastLeaderElection in org.apache.zookeeper.server.quorum has been deprecated
+    [javac]             le = new AuthFastLeaderElection(this);
+    [javac]                      ^
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java:582: warning: [deprecation] AuthFastLeaderElection in org.apache.zookeeper.server.quorum has been deprecated
+    [javac]             le = new AuthFastLeaderElection(this, true);
+    [javac]                      ^
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java:603: warning: [deprecation] LeaderElection in org.apache.zookeeper.server.quorum has been deprecated
+    [javac]             electionAlg = new LeaderElection(this);
+    [javac]                               ^
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/util/KerberosUtil.java:39: warning: [rawtypes] found raw type: Class
+    [javac]     getInstanceMethod = classRef.getMethod("getInstance", new Class[0]);
+    [javac]                                                               ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/util/KerberosUtil.java:42: warning: [rawtypes] found raw type: Class
+    [javac]          new Class[0]);
+    [javac]              ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] 13 warnings
+
+jar:
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6.jar
+
+bin-jar:
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6-bin.jar
+
+src-jar:
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6-sources.jar
+
+javadoc:
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/docs/api
+  [javadoc] Generating Javadoc
+  [javadoc] Javadoc execution
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/AsyncCallback.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/CreateMode.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/KeeperException.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/ServerAdminClient.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/WatchedEvent.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/Watcher.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/ZooDefs.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/ZooKeeper.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/ZooKeeperMain.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/client/FourLetterWordMain.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/LogFormatter.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/PurgeTxnLog.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/SnapshotFormatter.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/ZooKeeperServerMain.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerMain.java...
+  [javadoc] Loading source file /home/developer/arcus/zookeeper/src/java/main/org/apache/zookeeper/server/upgrade/UpgradeMain.java...
+  [javadoc] Loading source files for package org.apache.zookeeper.data...
+  [javadoc] Constructing Javadoc information...
+  [javadoc] Standard Doclet version 1.7.0_261
+  [javadoc] Building tree for all the packages and classes...
+  [javadoc] Building index for all the packages and classes...
+  [javadoc] Building index for all classes...
+
+javadoc-jar:
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6-javadoc.jar
+
+ivy-retrieve-test:
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.5-p6
+[ivy:retrieve] 	confs: [test]
+[ivy:retrieve] 	found junit#junit;4.8.1 in maven2
+[ivy:retrieve] 	found org.mockito#mockito-all;1.8.2 in maven2
+[ivy:retrieve] 	found checkstyle#checkstyle;5.0 in maven2
+[ivy:retrieve] 	found antlr#antlr;2.7.6 in maven2
+[ivy:retrieve] 	found commons-beanutils#commons-beanutils-core;1.7.0 in maven2
+[ivy:retrieve] 	found commons-collections#commons-collections;2.0 in maven2
+[ivy:retrieve] 	found commons-cli#commons-cli;1.0 in maven2
+[ivy:retrieve] 	found commons-lang#commons-lang;1.0 in maven2
+[ivy:retrieve] 	found commons-logging#commons-logging;1.0.3 in maven2
+[ivy:retrieve] 	found com.google.collections#google-collections;0.9 in maven2
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/junit/junit/4.8.1/junit-4.8.1.jar ...
+[ivy:retrieve] ............................................................................................................................................................................... (231kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] junit#junit;4.8.1!junit.jar (1573ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.jar ...
+[ivy:retrieve] .......................................
+[ivy:retrieve] ..........................................
+[ivy:retrieve] ..... (1315kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.mockito#mockito-all;1.8.2!mockito-all.jar (4020ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/checkstyle/checkstyle/5.0/checkstyle-5.0.jar ...
+[ivy:retrieve] ....................................
+[ivy:retrieve] .... (601kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] checkstyle#checkstyle;5.0!checkstyle.jar (2263ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/antlr/antlr/2.7.6/antlr-2.7.6.jar ...
+[ivy:retrieve] ............................. (433kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] antlr#antlr;2.7.6!antlr.jar (1806ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.7.0/commons-beanutils-core-1.7.0.jar ...
+[ivy:retrieve] ............ (164kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] commons-beanutils#commons-beanutils-core;1.7.0!commons-beanutils-core.jar (936ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.jar ...
+[ivy:retrieve] ... (29kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] commons-cli#commons-cli;1.0!commons-cli.jar (916ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar ...
+[ivy:retrieve] ... (30kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] commons-logging#commons-logging;1.0.3!commons-logging.jar (719ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/google/collections/google-collections/0.9/google-collections-0.9.jar ...
+[ivy:retrieve] ...................................... (557kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.google.collections#google-collections;0.9!google-collections.jar (1837ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.jar ...
+[ivy:retrieve] ....... (88kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] commons-collections#commons-collections;2.0!commons-collections.jar (990ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/commons-lang/commons-lang/1.0/commons-lang-1.0.jar ...
+[ivy:retrieve] ..... (62kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] commons-lang#commons-lang;1.0!commons-lang.jar (686ms)
+[ivy:retrieve] :: resolution report :: resolve 10338ms :: artifacts dl 15758ms
+[ivy:retrieve] 	:: evicted modules:
+[ivy:retrieve] 	commons-logging#commons-logging;1.0 by [commons-logging#commons-logging;1.0.3] in [test]
+[ivy:retrieve] 	junit#junit;3.7 by [junit#junit;4.8.1] in [test]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|       test       |   12  |   10  |   10  |   2   ||   10  |   10  |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [test]
+[ivy:retrieve] 	10 artifacts copied, 0 already retrieved (3515kB/10ms)
+
+compile-test:
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/test/classes
+    [javac] Compiling 117 source files to /home/developer/arcus/zookeeper/build/test/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/developer/arcus/zookeeper/src/java/test/org/apache/zookeeper/test/LoadFromLogTest.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+    [javac] Compiling 11 source files to /home/developer/arcus/zookeeper/build/test/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+
+test-jar:
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6-test.jar
+
+check-cppunit-configure:
+
+create-cppunit-configure:
+     [exec] libtoolize: putting auxiliary files in `.'.
+     [exec] libtoolize: copying file `./ltmain.sh'
+     [exec] libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+     [exec] libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+     [exec] libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+     [exec] configure.ac:51: installing `./compile'
+     [exec] configure.ac:57: installing `./config.guess'
+     [exec] configure.ac:57: installing `./config.sub'
+     [exec] configure.ac:25: installing `./install-sh'
+     [exec] configure.ac:25: installing `./missing'
+     [exec] Makefile.am: installing `./depcomp'
+
+bin-package:
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/lib
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/libexec
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/contrib
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/bin
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/docs
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/docs/jdiff
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/docs/api
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/templates/conf
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/sbin
+     [copy] Copying 9 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/sbin
+
+package:
+
+checkMainIsAvailable:
+
+checkMainCompiled:
+
+setjarname:
+
+check-contrib:
+
+init:
+     [echo] contrib: fatjar
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/fatjar
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/fatjar/classes
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/fatjar/test
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/fatjar/lib
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/fatjar/test/lib
+
+init-contrib:
+
+compile:
+     [echo] contrib: fatjar
+    [javac] Compiling 1 source file to /home/developer/arcus/zookeeper/build/contrib/fatjar/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+
+jar:
+     [echo] contrib: fatjar
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/contrib/fatjar/zookeeper-3.4.5-p6-fatjar.jar
+
+zookeeperbuildcontrib.package:
+     [echo] contrib: fatjar
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/contrib/fatjar
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/contrib/fatjar
+
+package:
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/fatjar
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/fatjar/conf
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/fatjar/conf
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/fatjar/src
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/fatjar/src
+
+check-contrib:
+
+zookeeperbuildcontrib.init:
+     [echo] contrib: loggraph
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/loggraph
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/loggraph/classes
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/loggraph/test
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/loggraph/lib
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/loggraph/test/lib
+
+init-contrib:
+
+init:
+     [echo] contrib: loggraph
+
+init-contrib:
+
+ivy-download:
+
+ivy-init:
+Trying to override old definition of datatype antlib:org.apache.ivy.ant:settings
+Trying to override old definition of task antlib:org.apache.ivy.ant:configure
+Trying to override old definition of task antlib:org.apache.ivy.ant:resolve
+Trying to override old definition of task antlib:org.apache.ivy.ant:retrieve
+Trying to override old definition of task antlib:org.apache.ivy.ant:deliver
+Trying to override old definition of task antlib:org.apache.ivy.ant:publish
+Trying to override old definition of task antlib:org.apache.ivy.ant:extract
+Trying to override old definition of task antlib:org.apache.ivy.ant:cachepath
+Trying to override old definition of task antlib:org.apache.ivy.ant:cachefileset
+Trying to override old definition of task antlib:org.apache.ivy.ant:report
+Trying to override old definition of task antlib:org.apache.ivy.ant:repreport
+Trying to override old definition of task antlib:org.apache.ivy.ant:var
+Trying to override old definition of task antlib:org.apache.ivy.ant:check
+Trying to override old definition of task antlib:org.apache.ivy.ant:artifactproperty
+Trying to override old definition of task antlib:org.apache.ivy.ant:buildlist
+Trying to override old definition of task antlib:org.apache.ivy.ant:install
+Trying to override old definition of task antlib:org.apache.ivy.ant:convertpom
+Trying to override old definition of task antlib:org.apache.ivy.ant:makepom
+Trying to override old definition of task antlib:org.apache.ivy.ant:artifactreport
+Trying to override old definition of task antlib:org.apache.ivy.ant:info
+Trying to override old definition of task antlib:org.apache.ivy.ant:addpath
+Trying to override old definition of task antlib:org.apache.ivy.ant:listmodules
+Trying to override old definition of task antlib:org.apache.ivy.ant:findrevision
+Trying to override old definition of task antlib:org.apache.ivy.ant:buildnumber
+Trying to override old definition of task antlib:org.apache.ivy.ant:cleancache
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/developer/arcus/zookeeper/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#loggraph;3.4.5-p6
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found org.eclipse.jetty#jetty-server;7.0.1.v20091125 in maven2
+[ivy:retrieve] 	found javax.servlet#servlet-api;2.5 in maven2
+[ivy:retrieve] 	found org.eclipse.jetty#jetty-continuation;7.0.1.v20091125 in maven2
+[ivy:retrieve] 	found org.eclipse.jetty#jetty-http;7.0.1.v20091125 in maven2
+[ivy:retrieve] 	found org.eclipse.jetty#jetty-io;7.0.1.v20091125 in maven2
+[ivy:retrieve] 	found org.eclipse.jetty#jetty-util;7.0.1.v20091125 in maven2
+[ivy:retrieve] 	found org.eclipse.jetty#jetty-servlet;7.0.1.v20091125 in maven2
+[ivy:retrieve] 	found org.eclipse.jetty#jetty-security;7.0.1.v20091125 in maven2
+[ivy:retrieve] 	found com.googlecode.json-simple#json-simple;1.1 in maven2
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.jar ...
+[ivy:retrieve] ......................................................................................................................................................................................... (244kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-server;7.0.1.v20091125!jetty-server.jar (1405ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125/jetty-servlet-7.0.1.v20091125.jar ...
+[ivy:retrieve] ..... (63kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-servlet;7.0.1.v20091125!jetty-servlet.jar (862ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar ...
+[ivy:retrieve] .. (15kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.googlecode.json-simple#json-simple;1.1!json-simple.jar (735ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar ...
+[ivy:retrieve] ........ (102kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] javax.servlet#servlet-api;2.5!servlet-api.jar (831ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/7.0.1.v20091125/jetty-continuation-7.0.1.v20091125.jar ...
+[ivy:retrieve] ... (18kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-continuation;7.0.1.v20091125!jetty-continuation.jar (728ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.jar ...
+[ivy:retrieve] ........ (104kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;7.0.1.v20091125!jetty-http.jar (944ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.jar ...
+[ivy:retrieve] ...... (65kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;7.0.1.v20091125!jetty-io.jar (967ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.jar ...
+[ivy:retrieve] ............ (174kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;7.0.1.v20091125!jetty-util.jar (989ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/7.0.1.v20091125/jetty-security-7.0.1.v20091125.jar ...
+[ivy:retrieve] ...... (64kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-security;7.0.1.v20091125!jetty-security.jar (777ms)
+[ivy:retrieve] :: resolution report :: resolve 13301ms :: artifacts dl 8251ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   12  |   9   |   9   |   0   ||   12  |   9   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#loggraph
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	12 artifacts copied, 0 already retrieved (1271kB/11ms)
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#loggraph
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	0 artifacts copied, 0 already retrieved (0kB/4ms)
+
+zookeeperbuildcontrib.compile:
+     [echo] contrib: loggraph
+    [javac] Compiling 34 source files to /home/developer/arcus/zookeeper/build/contrib/loggraph/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile:
+
+setjarname:
+
+jar:
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/contrib/loggraph/zookeeper-3.4.5-p6-loggraph.jar
+
+zookeeperbuildcontrib.package:
+     [echo] contrib: loggraph
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/contrib/loggraph
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/contrib/loggraph
+
+package:
+     [echo] contrib: loggraph
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/loggraph
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/loggraph/src
+     [copy] Copying 34 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/loggraph/src
+
+checkMainIsAvailable:
+
+checkMainCompiled:
+
+setjarname:
+
+check-contrib:
+
+init:
+     [echo] contrib: rest
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/rest
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/rest/classes
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/rest/test
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/rest/lib
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/rest/test/lib
+
+init-contrib:
+
+ivy-download:
+
+ivy-init:
+Trying to override old definition of datatype antlib:org.apache.ivy.ant:settings
+Trying to override old definition of task antlib:org.apache.ivy.ant:configure
+Trying to override old definition of task antlib:org.apache.ivy.ant:resolve
+Trying to override old definition of task antlib:org.apache.ivy.ant:retrieve
+Trying to override old definition of task antlib:org.apache.ivy.ant:deliver
+Trying to override old definition of task antlib:org.apache.ivy.ant:publish
+Trying to override old definition of task antlib:org.apache.ivy.ant:extract
+Trying to override old definition of task antlib:org.apache.ivy.ant:cachepath
+Trying to override old definition of task antlib:org.apache.ivy.ant:cachefileset
+Trying to override old definition of task antlib:org.apache.ivy.ant:report
+Trying to override old definition of task antlib:org.apache.ivy.ant:repreport
+Trying to override old definition of task antlib:org.apache.ivy.ant:var
+Trying to override old definition of task antlib:org.apache.ivy.ant:check
+Trying to override old definition of task antlib:org.apache.ivy.ant:artifactproperty
+Trying to override old definition of task antlib:org.apache.ivy.ant:buildlist
+Trying to override old definition of task antlib:org.apache.ivy.ant:install
+Trying to override old definition of task antlib:org.apache.ivy.ant:convertpom
+Trying to override old definition of task antlib:org.apache.ivy.ant:makepom
+Trying to override old definition of task antlib:org.apache.ivy.ant:artifactreport
+Trying to override old definition of task antlib:org.apache.ivy.ant:info
+Trying to override old definition of task antlib:org.apache.ivy.ant:addpath
+Trying to override old definition of task antlib:org.apache.ivy.ant:listmodules
+Trying to override old definition of task antlib:org.apache.ivy.ant:findrevision
+Trying to override old definition of task antlib:org.apache.ivy.ant:buildnumber
+Trying to override old definition of task antlib:org.apache.ivy.ant:cleancache
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/developer/arcus/zookeeper/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#rest;3.4.5-p6
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found asm#asm;3.1 in maven2
+[ivy:retrieve] 	found com.sun.grizzly#grizzly-servlet-webserver;1.9.8 in maven2
+[ivy:retrieve] 	found com.sun.grizzly#grizzly-http;1.9.8 in maven2
+[ivy:retrieve] 	found com.sun.grizzly#grizzly-framework;1.9.8 in maven2
+[ivy:retrieve] 	found com.sun.grizzly#grizzly-utils;1.9.8 in maven2
+[ivy:retrieve] 	found com.sun.grizzly#grizzly-rcm;1.9.8 in maven2
+[ivy:retrieve] 	found com.sun.grizzly#grizzly-portunif;1.9.8 in maven2
+[ivy:retrieve] 	found com.sun.grizzly#grizzly-http-servlet;1.9.8 in maven2
+[ivy:retrieve] 	found javax.servlet#servlet-api;2.5 in maven2
+[ivy:retrieve] 	found com.sun.jersey#jersey-server;1.1.5.1 in maven2
+[ivy:retrieve] 	found com.sun.jersey#jersey-core;1.1.5.1 in maven2
+[ivy:retrieve] 	found javax.ws.rs#jsr311-api;1.1.1 in maven2
+[ivy:retrieve] 	found com.sun.jersey#jersey-json;1.1.5.1 in maven2
+[ivy:retrieve] 	found org.codehaus.jettison#jettison;1.1 in maven2
+[ivy:retrieve] 	found stax#stax-api;1.0.1 in maven2
+[ivy:retrieve] 	found com.sun.xml.bind#jaxb-impl;2.1.12 in maven2
+[ivy:retrieve] 	found javax.xml.bind#jaxb-api;2.1 in maven2
+[ivy:retrieve] 	found javax.xml.stream#stax-api;1.0-2 in maven2
+[ivy:retrieve] 	found javax.activation#activation;1.1 in maven2
+[ivy:retrieve] 	found org.codehaus.jackson#jackson-core-asl;1.1.1 in maven2
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar ...
+[ivy:retrieve] .... (42kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] asm#asm;3.1!asm.jar (742ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/grizzly/grizzly-servlet-webserver/1.9.8/grizzly-servlet-webserver-1.9.8.jar ...
+[ivy:retrieve] .....................................................
+[ivy:retrieve] ..... (879kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.grizzly#grizzly-servlet-webserver;1.9.8!grizzly-servlet-webserver.jar(bundle) (2311ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.1.5.1/jersey-server-1.1.5.1.jar ...
+[ivy:retrieve] ..................................... (567kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.jersey#jersey-server;1.1.5.1!jersey-server.jar (1582ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.1.5.1/jersey-json-1.1.5.1.jar ...
+[ivy:retrieve] .......... (128kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.jersey#jersey-json;1.1.5.1!jersey-json.jar (1100ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/grizzly/grizzly-http/1.9.8/grizzly-http-1.9.8.jar ...
+[ivy:retrieve] ........... (147kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.grizzly#grizzly-http;1.9.8!grizzly-http.jar(bundle) (1161ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/grizzly/grizzly-http-servlet/1.9.8/grizzly-http-servlet-1.9.8.jar ...
+[ivy:retrieve] .... (43kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.grizzly#grizzly-http-servlet;1.9.8!grizzly-http-servlet.jar(bundle) (722ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/grizzly/grizzly-framework/1.9.8/grizzly-framework-1.9.8.jar ...
+[ivy:retrieve] ............... (221kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.grizzly#grizzly-framework;1.9.8!grizzly-framework.jar(bundle) (1450ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/grizzly/grizzly-rcm/1.9.8/grizzly-rcm-1.9.8.jar ...
+[ivy:retrieve] .. (8kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.grizzly#grizzly-rcm;1.9.8!grizzly-rcm.jar(bundle) (664ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/grizzly/grizzly-portunif/1.9.8/grizzly-portunif-1.9.8.jar ...
+[ivy:retrieve] ... (16kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.grizzly#grizzly-portunif;1.9.8!grizzly-portunif.jar(bundle) (686ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/grizzly/grizzly-utils/1.9.8/grizzly-utils-1.9.8.jar ...
+[ivy:retrieve] ....................... (348kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.grizzly#grizzly-utils;1.9.8!grizzly-utils.jar(bundle) (1619ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.1.5.1/jersey-core-1.1.5.1.jar ...
+[ivy:retrieve] ....................... (336kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.jersey#jersey-core;1.1.5.1!jersey-core.jar (1406ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar ...
+[ivy:retrieve] .... (45kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] javax.ws.rs#jsr311-api;1.1.1!jsr311-api.jar (775ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar ...
+[ivy:retrieve] ...... (66kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.codehaus.jettison#jettison;1.1!jettison.jar(bundle) (849ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.1.12/jaxb-impl-2.1.12.jar ...
+[ivy:retrieve] .............................................
+[ivy:retrieve] ........... (847kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] com.sun.xml.bind#jaxb-impl;2.1.12!jaxb-impl.jar (2536ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.1.1/jackson-core-asl-1.1.1.jar ...
+[ivy:retrieve] ........ (102kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.1.1!jackson-core-asl.jar (881ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar ...
+[ivy:retrieve] ... (25kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] stax#stax-api;1.0.1!stax-api.jar (690ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar ...
+[ivy:retrieve] ....... (87kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] javax.xml.bind#jaxb-api;2.1!jaxb-api.jar (816ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar ...
+[ivy:retrieve] ... (22kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] javax.xml.stream#stax-api;1.0-2!stax-api.jar (756ms)
+[ivy:retrieve] downloading https://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar ...
+[ivy:retrieve] ..... (61kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] javax.activation#activation;1.1!activation.jar (752ms)
+[ivy:retrieve] :: resolution report :: resolve 25334ms :: artifacts dl 21521ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   23  |   19  |   19  |   0   ||   23  |   19  |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#rest
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	15 artifacts copied, 0 already retrieved (2786kB/23ms)
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#rest
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	8 artifacts copied, 0 already retrieved (1732kB/16ms)
+
+zookeeperbuildcontrib.compile:
+     [echo] contrib: rest
+    [javac] Compiling 20 source files to /home/developer/arcus/zookeeper/build/contrib/rest/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+
+compile:
+
+jar:
+     [echo] contrib: rest
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/contrib/rest/zookeeper-3.4.5-p6-rest.jar
+
+package:
+     [echo] contrib: rest
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/contrib/rest
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/contrib/rest
+
+check-contrib:
+
+init:
+     [echo] contrib: zkfuse
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/zkfuse
+
+init-contrib:
+
+compile:
+     [echo] contrib: zkfuse
+     [copy] Copying 18 files to /home/developer/arcus/zookeeper/build/contrib/zkfuse
+
+package:
+     [echo] contrib: zkfuse
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/zkfuse
+     [copy] Copying 19 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/zkfuse
+
+check-contrib:
+
+init:
+     [echo] contrib: zkperl
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/zkperl
+
+init-contrib:
+
+compile:
+     [echo] contrib: zkperl
+     [copy] Copying 24 files to /home/developer/arcus/zookeeper/build/contrib/zkperl
+
+package:
+     [echo] contrib: zkperl
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/zkperl
+     [copy] Copying 25 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/zkperl
+
+package:
+     [echo] contrib: zkpython
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/zkpython
+     [copy] Copying 24 files to /home/developer/arcus/zookeeper/build/contrib/zkpython
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/zkpython
+     [copy] Copying 25 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/zkpython
+
+check-contrib:
+
+init:
+     [echo] contrib: zktreeutil
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/zktreeutil
+
+init-contrib:
+
+compile:
+     [echo] contrib: zktreeutil
+     [copy] Copying 12 files to /home/developer/arcus/zookeeper/build/contrib/zktreeutil
+
+package:
+     [echo] contrib: zktreeutil
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/zktreeutil
+     [copy] Copying 13 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/zktreeutil
+
+setjarname:
+
+checkMainIsAvailable:
+
+checkMainCompiled:
+
+check-contrib:
+
+zookeeperbuildcontrib.init:
+     [echo] contrib: ZooInspector
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/ZooInspector
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/ZooInspector/classes
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/ZooInspector/test
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/ZooInspector/lib
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/ZooInspector/test/lib
+
+init-contrib:
+
+init:
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/ZooInspector/licences
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/contrib/ZooInspector/licences
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/ZooInspector/icons
+     [copy] Copying 13 files to /home/developer/arcus/zookeeper/build/contrib/ZooInspector/icons
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/contrib/ZooInspector/config
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/contrib/ZooInspector/config
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/contrib/ZooInspector/lib
+     [copy] Copying 5 files to /home/developer/arcus/zookeeper/build/contrib/ZooInspector
+
+ivy-download:
+
+ivy-init:
+Trying to override old definition of datatype antlib:org.apache.ivy.ant:settings
+Trying to override old definition of task antlib:org.apache.ivy.ant:configure
+Trying to override old definition of task antlib:org.apache.ivy.ant:resolve
+Trying to override old definition of task antlib:org.apache.ivy.ant:retrieve
+Trying to override old definition of task antlib:org.apache.ivy.ant:deliver
+Trying to override old definition of task antlib:org.apache.ivy.ant:publish
+Trying to override old definition of task antlib:org.apache.ivy.ant:extract
+Trying to override old definition of task antlib:org.apache.ivy.ant:cachepath
+Trying to override old definition of task antlib:org.apache.ivy.ant:cachefileset
+Trying to override old definition of task antlib:org.apache.ivy.ant:report
+Trying to override old definition of task antlib:org.apache.ivy.ant:repreport
+Trying to override old definition of task antlib:org.apache.ivy.ant:var
+Trying to override old definition of task antlib:org.apache.ivy.ant:check
+Trying to override old definition of task antlib:org.apache.ivy.ant:artifactproperty
+Trying to override old definition of task antlib:org.apache.ivy.ant:buildlist
+Trying to override old definition of task antlib:org.apache.ivy.ant:install
+Trying to override old definition of task antlib:org.apache.ivy.ant:convertpom
+Trying to override old definition of task antlib:org.apache.ivy.ant:makepom
+Trying to override old definition of task antlib:org.apache.ivy.ant:artifactreport
+Trying to override old definition of task antlib:org.apache.ivy.ant:info
+Trying to override old definition of task antlib:org.apache.ivy.ant:addpath
+Trying to override old definition of task antlib:org.apache.ivy.ant:listmodules
+Trying to override old definition of task antlib:org.apache.ivy.ant:findrevision
+Trying to override old definition of task antlib:org.apache.ivy.ant:buildnumber
+Trying to override old definition of task antlib:org.apache.ivy.ant:cleancache
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/developer/arcus/zookeeper/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#ZooInspector;3.4.5-p6
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] :: resolution report :: resolve 67ms :: artifacts dl 2ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#ZooInspector
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	3 artifacts copied, 0 already retrieved (417kB/6ms)
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#ZooInspector
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	0 artifacts copied, 0 already retrieved (0kB/1ms)
+
+zookeeperbuildcontrib.compile:
+     [echo] contrib: ZooInspector
+    [javac] Compiling 24 source files to /home/developer/arcus/zookeeper/build/contrib/ZooInspector/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile:
+
+jar:
+     [echo] contrib: ZooInspector
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/contrib/ZooInspector/zookeeper-3.4.5-p6-ZooInspector.jar
+
+zookeeperbuildcontrib.package:
+     [echo] contrib: ZooInspector
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/contrib/ZooInspector
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/contrib/ZooInspector
+
+package:
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector/src
+     [copy] Copying 25 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector/src
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector/licences
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector/licences
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector/icons
+     [copy] Copying 13 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector/icons
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector/config
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector/config
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/contrib/ZooInspector/lib
+
+package:
+
+checkMainIsAvailable:
+
+checkMainCompiled:
+
+setjarname:
+
+check-recipes:
+
+init:
+     [echo] recipes: election
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/recipes/election
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/recipes/election/classes
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/recipes/election/test
+
+init-recipes:
+
+compile:
+     [echo] contrib: election
+    [javac] Compiling 3 source files to /home/developer/arcus/zookeeper/build/recipes/election/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+
+jar:
+     [echo] recipes: election
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/recipes/election/zookeeper-3.4.5-p6-recipes-election.jar
+
+zookeeperbuildrecipes.package:
+     [echo] recipes: election
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/election
+
+package:
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/recipes/election
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/recipes/election/test
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/recipes/election/test
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/recipes/election/src
+     [copy] Copying 3 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/recipes/election/src
+
+checkMainIsAvailable:
+
+checkMainCompiled:
+
+setjarname:
+
+check-recipes:
+
+init:
+     [echo] recipes: lock
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/recipes/lock
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/recipes/lock/classes
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/recipes/lock/test
+
+init-recipes:
+
+compile:
+     [echo] contrib: lock
+    [javac] Compiling 5 source files to /home/developer/arcus/zookeeper/build/recipes/lock/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+
+jar:
+     [echo] recipes: lock
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/recipes/lock/zookeeper-3.4.5-p6-recipes-lock.jar
+
+zookeeperbuildrecipes.package:
+     [echo] recipes: lock
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/lock
+
+package:
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/lock
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/lock/test
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/lock/test
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/lock/src
+     [copy] Copying 20 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/lock/src
+
+checkMainIsAvailable:
+
+checkMainCompiled:
+
+setjarname:
+
+check-recipes:
+
+init:
+     [echo] recipes: queue
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/recipes/queue
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/recipes/queue/classes
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/recipes/queue/test
+
+init-recipes:
+
+compile:
+     [echo] contrib: queue
+    [javac] Compiling 1 source file to /home/developer/arcus/zookeeper/build/recipes/queue/classes
+    [javac] This version of java does not support the classic compiler; upgrading to modern
+
+jar:
+     [echo] recipes: queue
+      [jar] Building jar: /home/developer/arcus/zookeeper/build/recipes/queue/zookeeper-3.4.5-p6-recipes-queue.jar
+
+zookeeperbuildrecipes.package:
+     [echo] recipes: queue
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/queue
+
+package:
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/queue
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/queue/test
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/queue/test
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/queue/src
+     [copy] Copying 16 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/recipes/queue/src
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper
+    [mkdir] Created dir: /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/dist-maven
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/dist-maven
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/dist-maven
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/dist-maven
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/bin
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/libexec
+     [copy] Copying 2 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/sbin
+     [copy] Copying 3 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/conf
+     [copy] Copying 269 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/docs
+     [copy] Copying 8 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6
+     [copy] Copying 880 files to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/src
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/templates/conf
+     [copy] Copying 1 file to /home/developer/arcus/zookeeper/build/zookeeper-3.4.5-p6/share/zookeeper/templates/conf
+
+BUILD SUCCESSFUL
+Total time: 2 minutes 16 seconds
+~/arcus/scripts
+~/arcus/zookeeper/src/c ~/arcus/scripts
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+~/arcus/scripts
+~/arcus/deps/libevent ~/arcus/scripts
+configure options : 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... none
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking whether gcc needs -traditional... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking how to recognize dependent libraries... pass_all
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... none
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+(cached) (cached) checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking for socket in -lsocket... no
+checking for inet_aton in -lresolv... yes
+checking for clock_gettime in -lrt... yes
+checking for inet_ntoa in -lnsl... yes
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for unistd.h... (cached) yes
+checking sys/epoll.h usability... yes
+checking sys/epoll.h presence... yes
+checking for sys/epoll.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/queue.h usability... yes
+checking sys/queue.h presence... yes
+checking for sys/queue.h... yes
+checking sys/event.h usability... no
+checking sys/event.h presence... no
+checking for sys/event.h... no
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/devpoll.h usability... no
+checking sys/devpoll.h presence... no
+checking for sys/devpoll.h... no
+checking port.h usability... no
+checking port.h presence... no
+checking for port.h... no
+checking netinet/in6.h usability... no
+checking netinet/in6.h presence... no
+checking for netinet/in6.h... no
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for TAILQ_FOREACH in sys/queue.h... yes
+checking for timeradd in sys/time.h... yes
+checking for timercmp in sys/time.h... yes
+checking for timerclear in sys/time.h... yes
+checking for timerisset in sys/time.h... yes
+checking for WIN32... no
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking whether time.h and sys/time.h may both be included... yes
+checking for gettimeofday... yes
+checking for vasprintf... yes
+checking for fcntl... yes
+checking for clock_gettime... yes
+checking for strtok_r... yes
+checking for strsep... yes
+checking for getaddrinfo... yes
+checking for getnameinfo... yes
+checking for strlcpy... no
+checking for inet_ntop... yes
+checking for signal... yes
+checking for sigaction... yes
+checking for strtoll... yes
+checking for issetugid... no
+checking for geteuid... yes
+checking for getegid... yes
+checking size of long... 8
+checking for F_SETFD in fcntl.h... yes
+checking for select... yes
+checking for poll... yes
+checking for epoll_ctl... yes
+checking for port_create... no
+checking for pid_t... yes
+checking for size_t... yes
+checking for uint64_t... yes
+checking for uint32_t... yes
+checking for uint16_t... yes
+checking for uint8_t... yes
+checking for fd_mask... yes
+checking size of long long... 8
+checking size of int... 4
+checking size of short... 2
+checking for struct in6_addr... yes
+checking for socklen_t... yes
+checking whether our compiler supports __func__... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating test/Makefile
+config.status: creating sample/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+Making clean in test
+make[1]: Entering directory `/home/developer/arcus/deps/libevent/test'
+rm -rf .libs _libs
+ rm -f test-init test-init
+ rm -f test-eof test-eof
+ rm -f test-weof test-weof
+ rm -f test-time test-time
+ rm -f regress regress
+ rm -f bench bench
+rm -f *.o
+rm -f *.lo
+make[1]: Leaving directory `/home/developer/arcus/deps/libevent/test'
+Making clean in sample
+make[1]: Entering directory `/home/developer/arcus/deps/libevent/sample'
+rm -rf .libs _libs
+ rm -f event-test event-test
+ rm -f time-test time-test
+ rm -f signal-test signal-test
+rm -f *.o
+rm -f *.lo
+make[1]: Leaving directory `/home/developer/arcus/deps/libevent/sample'
+Making clean in .
+make[1]: Entering directory `/home/developer/arcus/deps/libevent'
+test -z "libevent.la libevent_core.la libevent_extra.la" || rm -f libevent.la libevent_core.la libevent_extra.la
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -rf .libs _libs
+rm -f *.o
+rm -f *.lo
+make[1]: Leaving directory `/home/developer/arcus/deps/libevent'
+echo '/* event-config.h' > event-config.h
+echo ' * Generated by autoconf; post-processed by libevent.' >> event-config.h
+echo ' * Do not edit this file.' >> event-config.h
+echo ' * Do not rely on macros in this file existing in later versions.'>> event-config.h
+echo ' */' >> event-config.h
+echo '#ifndef _EVENT_CONFIG_H_' >> event-config.h
+echo '#define _EVENT_CONFIG_H_' >> event-config.h
+sed -e 's/#define /#define _EVENT_/' \
+	    -e 's/#undef /#undef _EVENT_/' \
+	    -e 's/#ifndef /#ifndef _EVENT_/' < config.h >> event-config.h
+echo "#endif" >> event-config.h
+make  all-recursive
+make[1]: Entering directory `/home/developer/arcus/deps/libevent'
+Making all in .
+make[2]: Entering directory `/home/developer/arcus/deps/libevent'
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o event.lo event.c
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c event.c  -fPIC -DPIC -o .libs/event.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c event.c -o event.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o buffer.lo buffer.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c buffer.c  -fPIC -DPIC -o .libs/buffer.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c buffer.c -o buffer.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o evbuffer.lo evbuffer.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c evbuffer.c  -fPIC -DPIC -o .libs/evbuffer.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c evbuffer.c -o evbuffer.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o log.lo log.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c log.c  -fPIC -DPIC -o .libs/log.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c log.c -o log.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o evutil.lo evutil.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c evutil.c  -fPIC -DPIC -o .libs/evutil.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c evutil.c -o evutil.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o event_tagging.lo event_tagging.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c event_tagging.c  -fPIC -DPIC -o .libs/event_tagging.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c event_tagging.c -o event_tagging.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o http.lo http.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c http.c  -fPIC -DPIC -o .libs/http.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c http.c -o http.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o evdns.lo evdns.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c evdns.c  -fPIC -DPIC -o .libs/evdns.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c evdns.c -o evdns.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o evrpc.lo evrpc.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c evrpc.c  -fPIC -DPIC -o .libs/evrpc.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c evrpc.c -o evrpc.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o strlcpy.lo strlcpy.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c strlcpy.c  -fPIC -DPIC -o .libs/strlcpy.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c strlcpy.c -o strlcpy.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o select.lo select.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c select.c  -fPIC -DPIC -o .libs/select.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c select.c -o select.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o poll.lo poll.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c poll.c  -fPIC -DPIC -o .libs/poll.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c poll.c -o poll.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o epoll.lo epoll.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c epoll.c  -fPIC -DPIC -o .libs/epoll.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c epoll.c -o epoll.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./compat     -g -O2 -Wall -fno-strict-aliasing -c -o signal.lo signal.c
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c signal.c  -fPIC -DPIC -o .libs/signal.o
+ gcc -DHAVE_CONFIG_H -I. -I./compat -g -O2 -Wall -fno-strict-aliasing -c signal.c -o signal.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -Wall -fno-strict-aliasing -release 1.4 -version-info 3:3:1  -o libevent.la -rpath /home/developer/arcus/lib event.lo buffer.lo evbuffer.lo log.lo evutil.lo  event_tagging.lo http.lo evdns.lo evrpc.lo strlcpy.lo select.lo poll.lo epoll.lo signal.lo  -lnsl -lrt -lresolv 
+gcc -shared  .libs/event.o .libs/buffer.o .libs/evbuffer.o .libs/log.o .libs/evutil.o .libs/event_tagging.o .libs/http.o .libs/evdns.o .libs/evrpc.o .libs/strlcpy.o .libs/select.o .libs/poll.o .libs/epoll.o .libs/signal.o  -lnsl -lrt -lresolv  -Wl,-soname -Wl,libevent-1.4.so.2 -o .libs/libevent-1.4.so.2.1.3
+(cd .libs && rm -f libevent-1.4.so.2 && ln -s libevent-1.4.so.2.1.3 libevent-1.4.so.2)
+(cd .libs && rm -f libevent.so && ln -s libevent-1.4.so.2.1.3 libevent.so)
+ar cru .libs/libevent.a  event.o buffer.o evbuffer.o log.o evutil.o event_tagging.o http.o evdns.o evrpc.o strlcpy.o select.o poll.o epoll.o signal.o
+ranlib .libs/libevent.a
+creating libevent.la
+(cd .libs && rm -f libevent.la && ln -s ../libevent.la libevent.la)
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -Wall -fno-strict-aliasing -release 1.4 -version-info 3:3:1  -o libevent_core.la -rpath /home/developer/arcus/lib event.lo buffer.lo evbuffer.lo log.lo evutil.lo  select.lo poll.lo epoll.lo signal.lo  -lnsl -lrt -lresolv 
+gcc -shared  .libs/event.o .libs/buffer.o .libs/evbuffer.o .libs/log.o .libs/evutil.o .libs/select.o .libs/poll.o .libs/epoll.o .libs/signal.o  -lnsl -lrt -lresolv  -Wl,-soname -Wl,libevent_core-1.4.so.2 -o .libs/libevent_core-1.4.so.2.1.3
+(cd .libs && rm -f libevent_core-1.4.so.2 && ln -s libevent_core-1.4.so.2.1.3 libevent_core-1.4.so.2)
+(cd .libs && rm -f libevent_core.so && ln -s libevent_core-1.4.so.2.1.3 libevent_core.so)
+ar cru .libs/libevent_core.a  event.o buffer.o evbuffer.o log.o evutil.o select.o poll.o epoll.o signal.o
+ranlib .libs/libevent_core.a
+creating libevent_core.la
+(cd .libs && rm -f libevent_core.la && ln -s ../libevent_core.la libevent_core.la)
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -Wall -fno-strict-aliasing -release 1.4 -version-info 3:3:1  -o libevent_extra.la -rpath /home/developer/arcus/lib event_tagging.lo http.lo evdns.lo evrpc.lo strlcpy.lo select.lo poll.lo epoll.lo signal.lo  -lnsl -lrt -lresolv 
+gcc -shared  .libs/event_tagging.o .libs/http.o .libs/evdns.o .libs/evrpc.o .libs/strlcpy.o .libs/select.o .libs/poll.o .libs/epoll.o .libs/signal.o  -lnsl -lrt -lresolv  -Wl,-soname -Wl,libevent_extra-1.4.so.2 -o .libs/libevent_extra-1.4.so.2.1.3
+(cd .libs && rm -f libevent_extra-1.4.so.2 && ln -s libevent_extra-1.4.so.2.1.3 libevent_extra-1.4.so.2)
+(cd .libs && rm -f libevent_extra.so && ln -s libevent_extra-1.4.so.2.1.3 libevent_extra.so)
+ar cru .libs/libevent_extra.a  event_tagging.o http.o evdns.o evrpc.o strlcpy.o select.o poll.o epoll.o signal.o
+ranlib .libs/libevent_extra.a
+creating libevent_extra.la
+(cd .libs && rm -f libevent_extra.la && ln -s ../libevent_extra.la libevent_extra.la)
+make[2]: Leaving directory `/home/developer/arcus/deps/libevent'
+Making all in sample
+make[2]: Entering directory `/home/developer/arcus/deps/libevent/sample'
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c event-test.c
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing   -o event-test event-test.o ../libevent.la -lnsl -lrt -lresolv 
+mkdir .libs
+gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -o .libs/event-test event-test.o  ../.libs/libevent.so -lnsl -lrt -lresolv  -Wl,--rpath -Wl,/home/developer/arcus/lib
+creating event-test
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c time-test.c
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing   -o time-test time-test.o ../libevent.la -lnsl -lrt -lresolv 
+gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -o .libs/time-test time-test.o  ../.libs/libevent.so -lnsl -lrt -lresolv  -Wl,--rpath -Wl,/home/developer/arcus/lib
+creating time-test
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c signal-test.c
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing   -o signal-test signal-test.o ../libevent.la -lnsl -lrt -lresolv 
+gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -o .libs/signal-test signal-test.o  ../.libs/libevent.so -lnsl -lrt -lresolv  -Wl,--rpath -Wl,/home/developer/arcus/lib
+creating signal-test
+make[2]: Leaving directory `/home/developer/arcus/deps/libevent/sample'
+Making all in test
+make[2]: Entering directory `/home/developer/arcus/deps/libevent/test'
+make  all-am
+make[3]: Entering directory `/home/developer/arcus/deps/libevent/test'
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c test-init.c
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing   -o test-init test-init.o ../libevent_core.la -lnsl -lrt -lresolv 
+mkdir .libs
+gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -o .libs/test-init test-init.o  ../.libs/libevent_core.so -lnsl -lrt -lresolv  -Wl,--rpath -Wl,/home/developer/arcus/lib
+creating test-init
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c test-eof.c
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing   -o test-eof test-eof.o ../libevent_core.la -lnsl -lrt -lresolv 
+gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -o .libs/test-eof test-eof.o  ../.libs/libevent_core.so -lnsl -lrt -lresolv  -Wl,--rpath -Wl,/home/developer/arcus/lib
+creating test-eof
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c test-weof.c
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing   -o test-weof test-weof.o ../libevent_core.la -lnsl -lrt -lresolv 
+gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -o .libs/test-weof test-weof.o  ../.libs/libevent_core.so -lnsl -lrt -lresolv  -Wl,--rpath -Wl,/home/developer/arcus/lib
+creating test-weof
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c test-time.c
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing   -o test-time test-time.o ../libevent_core.la -lnsl -lrt -lresolv 
+gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -o .libs/test-time test-time.o  ../.libs/libevent_core.so -lnsl -lrt -lresolv  -Wl,--rpath -Wl,/home/developer/arcus/lib
+creating test-time
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c regress.c
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c regress_http.c
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c regress_dns.c
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c regress_rpc.c
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c regress.gen.c
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing   -o regress regress.o regress_http.o regress_dns.o regress_rpc.o regress.gen.o ../libevent.la -lnsl -lrt -lresolv 
+gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -o .libs/regress regress.o regress_http.o regress_dns.o regress_rpc.o regress.gen.o  ../.libs/libevent.so -lnsl -lrt -lresolv  -Wl,--rpath -Wl,/home/developer/arcus/lib
+creating regress
+gcc -DHAVE_CONFIG_H -I. -I..    -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -c bench.c
+/bin/sh ../libtool --tag=CC   --mode=link gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing   -o bench bench.o ../libevent.la -lnsl -lrt -lresolv 
+gcc -I.. -I../compat -g -O2 -Wall -fno-strict-aliasing -o .libs/bench bench.o  ../.libs/libevent.so -lnsl -lrt -lresolv  -Wl,--rpath -Wl,/home/developer/arcus/lib
+creating bench
+make[3]: Leaving directory `/home/developer/arcus/deps/libevent/test'
+make[2]: Leaving directory `/home/developer/arcus/deps/libevent/test'
+make[1]: Leaving directory `/home/developer/arcus/deps/libevent'
+make  install-recursive
+make[1]: Entering directory `/home/developer/arcus/deps/libevent'
+Making install in .
+make[2]: Entering directory `/home/developer/arcus/deps/libevent'
+make[3]: Entering directory `/home/developer/arcus/deps/libevent'
+test -z "/home/developer/arcus/bin" || /bin/mkdir -p "/home/developer/arcus/bin"
+ /usr/bin/install -c 'event_rpcgen.py' '/home/developer/arcus/bin/event_rpcgen.py'
+test -z "/home/developer/arcus/lib" || /bin/mkdir -p "/home/developer/arcus/lib"
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'libevent.la' '/home/developer/arcus/lib/libevent.la'
+/usr/bin/install -c .libs/libevent-1.4.so.2.1.3 /home/developer/arcus/lib/libevent-1.4.so.2.1.3
+(cd /home/developer/arcus/lib && { ln -s -f libevent-1.4.so.2.1.3 libevent-1.4.so.2 || { rm -f libevent-1.4.so.2 && ln -s libevent-1.4.so.2.1.3 libevent-1.4.so.2; }; })
+(cd /home/developer/arcus/lib && { ln -s -f libevent-1.4.so.2.1.3 libevent.so || { rm -f libevent.so && ln -s libevent-1.4.so.2.1.3 libevent.so; }; })
+/usr/bin/install -c .libs/libevent.lai /home/developer/arcus/lib/libevent.la
+/usr/bin/install -c .libs/libevent.a /home/developer/arcus/lib/libevent.a
+chmod 644 /home/developer/arcus/lib/libevent.a
+ranlib /home/developer/arcus/lib/libevent.a
+PATH="$PATH:/sbin" ldconfig -n /home/developer/arcus/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/developer/arcus/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'libevent_core.la' '/home/developer/arcus/lib/libevent_core.la'
+/usr/bin/install -c .libs/libevent_core-1.4.so.2.1.3 /home/developer/arcus/lib/libevent_core-1.4.so.2.1.3
+(cd /home/developer/arcus/lib && { ln -s -f libevent_core-1.4.so.2.1.3 libevent_core-1.4.so.2 || { rm -f libevent_core-1.4.so.2 && ln -s libevent_core-1.4.so.2.1.3 libevent_core-1.4.so.2; }; })
+(cd /home/developer/arcus/lib && { ln -s -f libevent_core-1.4.so.2.1.3 libevent_core.so || { rm -f libevent_core.so && ln -s libevent_core-1.4.so.2.1.3 libevent_core.so; }; })
+/usr/bin/install -c .libs/libevent_core.lai /home/developer/arcus/lib/libevent_core.la
+/usr/bin/install -c .libs/libevent_core.a /home/developer/arcus/lib/libevent_core.a
+chmod 644 /home/developer/arcus/lib/libevent_core.a
+ranlib /home/developer/arcus/lib/libevent_core.a
+PATH="$PATH:/sbin" ldconfig -n /home/developer/arcus/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/developer/arcus/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'libevent_extra.la' '/home/developer/arcus/lib/libevent_extra.la'
+/usr/bin/install -c .libs/libevent_extra-1.4.so.2.1.3 /home/developer/arcus/lib/libevent_extra-1.4.so.2.1.3
+(cd /home/developer/arcus/lib && { ln -s -f libevent_extra-1.4.so.2.1.3 libevent_extra-1.4.so.2 || { rm -f libevent_extra-1.4.so.2 && ln -s libevent_extra-1.4.so.2.1.3 libevent_extra-1.4.so.2; }; })
+(cd /home/developer/arcus/lib && { ln -s -f libevent_extra-1.4.so.2.1.3 libevent_extra.so || { rm -f libevent_extra.so && ln -s libevent_extra-1.4.so.2.1.3 libevent_extra.so; }; })
+/usr/bin/install -c .libs/libevent_extra.lai /home/developer/arcus/lib/libevent_extra.la
+/usr/bin/install -c .libs/libevent_extra.a /home/developer/arcus/lib/libevent_extra.a
+chmod 644 /home/developer/arcus/lib/libevent_extra.a
+ranlib /home/developer/arcus/lib/libevent_extra.a
+PATH="$PATH:/sbin" ldconfig -n /home/developer/arcus/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/developer/arcus/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/home/developer/arcus/include" || /bin/mkdir -p "/home/developer/arcus/include"
+ /usr/bin/install -c -m 644 'event.h' '/home/developer/arcus/include/event.h'
+ /usr/bin/install -c -m 644 'evhttp.h' '/home/developer/arcus/include/evhttp.h'
+ /usr/bin/install -c -m 644 'evdns.h' '/home/developer/arcus/include/evdns.h'
+ /usr/bin/install -c -m 644 'evrpc.h' '/home/developer/arcus/include/evrpc.h'
+ /usr/bin/install -c -m 644 'evutil.h' '/home/developer/arcus/include/evutil.h'
+test -z "/home/developer/arcus/share/man/man3" || /bin/mkdir -p "/home/developer/arcus/share/man/man3"
+ /usr/bin/install -c -m 644 './event.3' '/home/developer/arcus/share/man/man3/event.3'
+ /usr/bin/install -c -m 644 './evdns.3' '/home/developer/arcus/share/man/man3/evdns.3'
+test -z "/home/developer/arcus/include" || /bin/mkdir -p "/home/developer/arcus/include"
+ /usr/bin/install -c -m 644 'event-config.h' '/home/developer/arcus/include/event-config.h'
+make[3]: Leaving directory `/home/developer/arcus/deps/libevent'
+make[2]: Leaving directory `/home/developer/arcus/deps/libevent'
+Making install in sample
+make[2]: Entering directory `/home/developer/arcus/deps/libevent/sample'
+make[3]: Entering directory `/home/developer/arcus/deps/libevent/sample'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/developer/arcus/deps/libevent/sample'
+make[2]: Leaving directory `/home/developer/arcus/deps/libevent/sample'
+Making install in test
+make[2]: Entering directory `/home/developer/arcus/deps/libevent/test'
+make  install-am
+make[3]: Entering directory `/home/developer/arcus/deps/libevent/test'
+make[4]: Entering directory `/home/developer/arcus/deps/libevent/test'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/developer/arcus/deps/libevent/test'
+make[3]: Leaving directory `/home/developer/arcus/deps/libevent/test'
+make[2]: Leaving directory `/home/developer/arcus/deps/libevent/test'
+make[1]: Leaving directory `/home/developer/arcus/deps/libevent'
+~/arcus/scripts
+~/arcus/zookeeper/src/c ~/arcus/scripts
+configure options : 
+checking for doxygen... no
+checking for perl... /usr/bin/perl
+checking for dot... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for cppunit-config... /usr/bin/cppunit-config
+checking for Cppunit - version >= 1.10.2... 1.12.1
+checking for generated/zookeeper.jute.c... yes
+checking for generated/zookeeper.jute.h... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for pthread_mutex_lock in -lpthread... yes
+configure: building with SyncAPI support
+checking for ANSI C header files... (cached) yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking whether time.h and sys/time.h may both be included... yes
+checking for nfds_t... yes
+checking whether to enable ipv6... yes
+checking for getcwd... yes
+checking for gethostbyname... yes
+checking for gethostname... yes
+checking for getlogin... yes
+checking for getpwuid_r... yes
+checking for gettimeofday... yes
+checking for getuid... yes
+checking for memmove... yes
+checking for memset... yes
+checking for poll... yes
+checking for socket... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strtol... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+ rm -f cli_st cli_mt load_gen
+ rm -f zktest-st zktest-mt
+test -z "libzookeeper_st.la libzookeeper_mt.la" || rm -f libzookeeper_st.la libzookeeper_mt.la
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -rf .libs _libs
+rm -f zktest_st-TestDriver.o zktest_st-LibCMocks.o zktest_st-LibCSymTable.o zktest_st-MocksBase.o zktest_st-ZKMocks.o zktest_st-Util.o zktest_st-ThreadingUtil.o zktest_st-TestClientRetry.o zktest_st-TestOperations.o zktest_st-TestZookeeperInit.o zktest_st-TestZookeeperClose.o zktest_st-TestClient.o zktest_st-TestMulti.o zktest_st-TestWatchers.o zktest_mt-TestDriver.o zktest_mt-LibCMocks.o zktest_mt-LibCSymTable.o zktest_mt-MocksBase.o zktest_mt-ZKMocks.o zktest_mt-Util.o zktest_mt-ThreadingUtil.o zktest_mt-TestClientRetry.o zktest_mt-TestOperations.o zktest_mt-TestZookeeperInit.o zktest_mt-TestZookeeperClose.o zktest_mt-TestClient.o zktest_mt-TestMulti.o zktest_mt-TestWatchers.o zktest_mt-PthreadMocks.o
+rm -f docs/zookeeper.tag -r docs/html        
+test -z "libhashtable.la libzkst.la libzkmt.la" || rm -f libhashtable.la libzkst.la libzkmt.la
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -f *.o
+rm -f *.lo
+make  all-am
+make[1]: Entering directory `/home/developer/arcus/zookeeper/src/c'
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -Wall -Werror  -g -O2 -D_GNU_SOURCE -MT zookeeper.lo -MD -MP -MF .deps/zookeeper.Tpo -c -o zookeeper.lo `test -f 'src/zookeeper.c' || echo './'`src/zookeeper.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT zookeeper.lo -MD -MP -MF .deps/zookeeper.Tpo -c src/zookeeper.c  -fPIC -DPIC -o .libs/zookeeper.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT zookeeper.lo -MD -MP -MF .deps/zookeeper.Tpo -c src/zookeeper.c -o zookeeper.o >/dev/null 2>&1
+mv -f .deps/zookeeper.Tpo .deps/zookeeper.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -Wall -Werror  -g -O2 -D_GNU_SOURCE -MT recordio.lo -MD -MP -MF .deps/recordio.Tpo -c -o recordio.lo `test -f 'src/recordio.c' || echo './'`src/recordio.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT recordio.lo -MD -MP -MF .deps/recordio.Tpo -c src/recordio.c  -fPIC -DPIC -o .libs/recordio.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT recordio.lo -MD -MP -MF .deps/recordio.Tpo -c src/recordio.c -o recordio.o >/dev/null 2>&1
+mv -f .deps/recordio.Tpo .deps/recordio.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -Wall -Werror  -g -O2 -D_GNU_SOURCE -MT zookeeper.jute.lo -MD -MP -MF .deps/zookeeper.jute.Tpo -c -o zookeeper.jute.lo `test -f 'generated/zookeeper.jute.c' || echo './'`generated/zookeeper.jute.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT zookeeper.jute.lo -MD -MP -MF .deps/zookeeper.jute.Tpo -c generated/zookeeper.jute.c  -fPIC -DPIC -o .libs/zookeeper.jute.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT zookeeper.jute.lo -MD -MP -MF .deps/zookeeper.jute.Tpo -c generated/zookeeper.jute.c -o zookeeper.jute.o >/dev/null 2>&1
+mv -f .deps/zookeeper.jute.Tpo .deps/zookeeper.jute.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -Wall -Werror  -g -O2 -D_GNU_SOURCE -MT zk_log.lo -MD -MP -MF .deps/zk_log.Tpo -c -o zk_log.lo `test -f 'src/zk_log.c' || echo './'`src/zk_log.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT zk_log.lo -MD -MP -MF .deps/zk_log.Tpo -c src/zk_log.c  -fPIC -DPIC -o .libs/zk_log.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT zk_log.lo -MD -MP -MF .deps/zk_log.Tpo -c src/zk_log.c -o zk_log.o >/dev/null 2>&1
+mv -f .deps/zk_log.Tpo .deps/zk_log.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -Wall -Werror  -g -O2 -D_GNU_SOURCE -MT zk_hashtable.lo -MD -MP -MF .deps/zk_hashtable.Tpo -c -o zk_hashtable.lo `test -f 'src/zk_hashtable.c' || echo './'`src/zk_hashtable.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT zk_hashtable.lo -MD -MP -MF .deps/zk_hashtable.Tpo -c src/zk_hashtable.c  -fPIC -DPIC -o .libs/zk_hashtable.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT zk_hashtable.lo -MD -MP -MF .deps/zk_hashtable.Tpo -c src/zk_hashtable.c -o zk_hashtable.o >/dev/null 2>&1
+mv -f .deps/zk_hashtable.Tpo .deps/zk_hashtable.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -Wall -Werror  -g -O2 -D_GNU_SOURCE -MT st_adaptor.lo -MD -MP -MF .deps/st_adaptor.Tpo -c -o st_adaptor.lo `test -f 'src/st_adaptor.c' || echo './'`src/st_adaptor.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT st_adaptor.lo -MD -MP -MF .deps/st_adaptor.Tpo -c src/st_adaptor.c  -fPIC -DPIC -o .libs/st_adaptor.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT st_adaptor.lo -MD -MP -MF .deps/st_adaptor.Tpo -c src/st_adaptor.c -o st_adaptor.o >/dev/null 2>&1
+mv -f .deps/st_adaptor.Tpo .deps/st_adaptor.Plo
+/bin/sh ./libtool --tag=CC   --mode=link gcc -Wall -Werror  -g -O2 -D_GNU_SOURCE   -o libzkst.la  zookeeper.lo recordio.lo zookeeper.jute.lo zk_log.lo zk_hashtable.lo st_adaptor.lo -lm 
+libtool: link: ar cru .libs/libzkst.a .libs/zookeeper.o .libs/recordio.o .libs/zookeeper.jute.o .libs/zk_log.o .libs/zk_hashtable.o .libs/st_adaptor.o 
+libtool: link: ranlib .libs/libzkst.a
+libtool: link: ( cd ".libs" && rm -f "libzkst.la" && ln -s "../libzkst.la" "libzkst.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -Wall -Werror  -g -O2 -D_GNU_SOURCE -MT hashtable_itr.lo -MD -MP -MF .deps/hashtable_itr.Tpo -c -o hashtable_itr.lo `test -f 'src/hashtable/hashtable_itr.c' || echo './'`src/hashtable/hashtable_itr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT hashtable_itr.lo -MD -MP -MF .deps/hashtable_itr.Tpo -c src/hashtable/hashtable_itr.c  -fPIC -DPIC -o .libs/hashtable_itr.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT hashtable_itr.lo -MD -MP -MF .deps/hashtable_itr.Tpo -c src/hashtable/hashtable_itr.c -o hashtable_itr.o >/dev/null 2>&1
+mv -f .deps/hashtable_itr.Tpo .deps/hashtable_itr.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -Wall -Werror  -g -O2 -D_GNU_SOURCE -MT hashtable.lo -MD -MP -MF .deps/hashtable.Tpo -c -o hashtable.lo `test -f 'src/hashtable/hashtable.c' || echo './'`src/hashtable/hashtable.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT hashtable.lo -MD -MP -MF .deps/hashtable.Tpo -c src/hashtable/hashtable.c  -fPIC -DPIC -o .libs/hashtable.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -Wall -Werror -g -O2 -D_GNU_SOURCE -MT hashtable.lo -MD -MP -MF .deps/hashtable.Tpo -c src/hashtable/hashtable.c -o hashtable.o >/dev/null 2>&1
+mv -f .deps/hashtable.Tpo .deps/hashtable.Plo
+/bin/sh ./libtool --tag=CC   --mode=link gcc -Wall -Werror  -g -O2 -D_GNU_SOURCE   -o libhashtable.la  hashtable_itr.lo hashtable.lo  
+libtool: link: ar cru .libs/libhashtable.a .libs/hashtable_itr.o .libs/hashtable.o 
+libtool: link: ranlib .libs/libhashtable.a
+libtool: link: ( cd ".libs" && rm -f "libhashtable.la" && ln -s "../libhashtable.la" "libhashtable.la" )
+/bin/sh ./libtool --tag=CC   --mode=link gcc -Wall -Werror  -g -O2 -D_GNU_SOURCE -no-undefined -version-info 2 -export-symbols-regex '(zoo_|zookeeper_|zhandle|Z|format_log_message|log_message|logLevel|deallocate_|zerror|is_unrecoverable)'  -o libzookeeper_st.la -rpath /home/developer/arcus/lib  libzkst.la libhashtable.la 
+libtool: link: /usr/bin/nm -B   ./.libs/libzkst.a ./.libs/libhashtable.a | sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | /bin/sed 's/.* //' | sort | uniq > .libs/libzookeeper_st.exp
+libtool: link: /bin/grep -E -e "(zoo_|zookeeper_|zhandle|Z|format_log_message|log_message|logLevel|deallocate_|zerror|is_unrecoverable)" ".libs/libzookeeper_st.exp" > ".libs/libzookeeper_st.expT"
+libtool: link: mv -f ".libs/libzookeeper_st.expT" ".libs/libzookeeper_st.exp"
+libtool: link: echo "{ global:" > .libs/libzookeeper_st.ver
+libtool: link:  cat .libs/libzookeeper_st.exp | sed -e "s/\(.*\)/\1;/" >> .libs/libzookeeper_st.ver
+libtool: link:  echo "local: *; };" >> .libs/libzookeeper_st.ver
+libtool: link:  gcc -shared  -Wl,--whole-archive ./.libs/libzkst.a ./.libs/libhashtable.a -Wl,--no-whole-archive  -lm    -Wl,-soname -Wl,libzookeeper_st.so.2 -Wl,-version-script -Wl,.libs/libzookeeper_st.ver -o .libs/libzookeeper_st.so.2.0.0
+libtool: link: (cd ".libs" && rm -f "libzookeeper_st.so.2" && ln -s "libzookeeper_st.so.2.0.0" "libzookeeper_st.so.2")
+libtool: link: (cd ".libs" && rm -f "libzookeeper_st.so" && ln -s "libzookeeper_st.so.2.0.0" "libzookeeper_st.so")
+libtool: link: (cd .libs/libzookeeper_st.lax/libzkst.a && ar x "/home/developer/arcus/zookeeper/src/c/./.libs/libzkst.a")
+libtool: link: (cd .libs/libzookeeper_st.lax/libhashtable.a && ar x "/home/developer/arcus/zookeeper/src/c/./.libs/libhashtable.a")
+libtool: link: ar cru .libs/libzookeeper_st.a   .libs/libzookeeper_st.lax/libzkst.a/zk_log.o .libs/libzookeeper_st.lax/libzkst.a/zk_hashtable.o .libs/libzookeeper_st.lax/libzkst.a/recordio.o .libs/libzookeeper_st.lax/libzkst.a/zookeeper.jute.o .libs/libzookeeper_st.lax/libzkst.a/zookeeper.o .libs/libzookeeper_st.lax/libzkst.a/st_adaptor.o  .libs/libzookeeper_st.lax/libhashtable.a/hashtable_itr.o .libs/libzookeeper_st.lax/libhashtable.a/hashtable.o 
+libtool: link: ranlib .libs/libzookeeper_st.a
+libtool: link: rm -fr .libs/libzookeeper_st.lax
+libtool: link: ( cd ".libs" && rm -f "libzookeeper_st.la" && ln -s "../libzookeeper_st.la" "libzookeeper_st.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zookeeper.lo -MD -MP -MF .deps/libzkmt_la-zookeeper.Tpo -c -o libzkmt_la-zookeeper.lo `test -f 'src/zookeeper.c' || echo './'`src/zookeeper.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zookeeper.lo -MD -MP -MF .deps/libzkmt_la-zookeeper.Tpo -c src/zookeeper.c  -fPIC -DPIC -o .libs/libzkmt_la-zookeeper.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zookeeper.lo -MD -MP -MF .deps/libzkmt_la-zookeeper.Tpo -c src/zookeeper.c -o libzkmt_la-zookeeper.o >/dev/null 2>&1
+mv -f .deps/libzkmt_la-zookeeper.Tpo .deps/libzkmt_la-zookeeper.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-recordio.lo -MD -MP -MF .deps/libzkmt_la-recordio.Tpo -c -o libzkmt_la-recordio.lo `test -f 'src/recordio.c' || echo './'`src/recordio.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-recordio.lo -MD -MP -MF .deps/libzkmt_la-recordio.Tpo -c src/recordio.c  -fPIC -DPIC -o .libs/libzkmt_la-recordio.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-recordio.lo -MD -MP -MF .deps/libzkmt_la-recordio.Tpo -c src/recordio.c -o libzkmt_la-recordio.o >/dev/null 2>&1
+mv -f .deps/libzkmt_la-recordio.Tpo .deps/libzkmt_la-recordio.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zookeeper.jute.lo -MD -MP -MF .deps/libzkmt_la-zookeeper.jute.Tpo -c -o libzkmt_la-zookeeper.jute.lo `test -f 'generated/zookeeper.jute.c' || echo './'`generated/zookeeper.jute.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zookeeper.jute.lo -MD -MP -MF .deps/libzkmt_la-zookeeper.jute.Tpo -c generated/zookeeper.jute.c  -fPIC -DPIC -o .libs/libzkmt_la-zookeeper.jute.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zookeeper.jute.lo -MD -MP -MF .deps/libzkmt_la-zookeeper.jute.Tpo -c generated/zookeeper.jute.c -o libzkmt_la-zookeeper.jute.o >/dev/null 2>&1
+mv -f .deps/libzkmt_la-zookeeper.jute.Tpo .deps/libzkmt_la-zookeeper.jute.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zk_log.lo -MD -MP -MF .deps/libzkmt_la-zk_log.Tpo -c -o libzkmt_la-zk_log.lo `test -f 'src/zk_log.c' || echo './'`src/zk_log.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zk_log.lo -MD -MP -MF .deps/libzkmt_la-zk_log.Tpo -c src/zk_log.c  -fPIC -DPIC -o .libs/libzkmt_la-zk_log.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zk_log.lo -MD -MP -MF .deps/libzkmt_la-zk_log.Tpo -c src/zk_log.c -o libzkmt_la-zk_log.o >/dev/null 2>&1
+mv -f .deps/libzkmt_la-zk_log.Tpo .deps/libzkmt_la-zk_log.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zk_hashtable.lo -MD -MP -MF .deps/libzkmt_la-zk_hashtable.Tpo -c -o libzkmt_la-zk_hashtable.lo `test -f 'src/zk_hashtable.c' || echo './'`src/zk_hashtable.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zk_hashtable.lo -MD -MP -MF .deps/libzkmt_la-zk_hashtable.Tpo -c src/zk_hashtable.c  -fPIC -DPIC -o .libs/libzkmt_la-zk_hashtable.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-zk_hashtable.lo -MD -MP -MF .deps/libzkmt_la-zk_hashtable.Tpo -c src/zk_hashtable.c -o libzkmt_la-zk_hashtable.o >/dev/null 2>&1
+mv -f .deps/libzkmt_la-zk_hashtable.Tpo .deps/libzkmt_la-zk_hashtable.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-mt_adaptor.lo -MD -MP -MF .deps/libzkmt_la-mt_adaptor.Tpo -c -o libzkmt_la-mt_adaptor.lo `test -f 'src/mt_adaptor.c' || echo './'`src/mt_adaptor.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-mt_adaptor.lo -MD -MP -MF .deps/libzkmt_la-mt_adaptor.Tpo -c src/mt_adaptor.c  -fPIC -DPIC -o .libs/libzkmt_la-mt_adaptor.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I./include -I./tests -I./generated -DTHREADED -g -O2 -D_GNU_SOURCE -MT libzkmt_la-mt_adaptor.lo -MD -MP -MF .deps/libzkmt_la-mt_adaptor.Tpo -c src/mt_adaptor.c -o libzkmt_la-mt_adaptor.o >/dev/null 2>&1
+mv -f .deps/libzkmt_la-mt_adaptor.Tpo .deps/libzkmt_la-mt_adaptor.Plo
+/bin/sh ./libtool --tag=CC   --mode=link gcc -DTHREADED -g -O2 -D_GNU_SOURCE   -o libzkmt.la  libzkmt_la-zookeeper.lo libzkmt_la-recordio.lo libzkmt_la-zookeeper.jute.lo libzkmt_la-zk_log.lo libzkmt_la-zk_hashtable.lo libzkmt_la-mt_adaptor.lo -lm 
+libtool: link: ar cru .libs/libzkmt.a .libs/libzkmt_la-zookeeper.o .libs/libzkmt_la-recordio.o .libs/libzkmt_la-zookeeper.jute.o .libs/libzkmt_la-zk_log.o .libs/libzkmt_la-zk_hashtable.o .libs/libzkmt_la-mt_adaptor.o 
+libtool: link: ranlib .libs/libzkmt.a
+libtool: link: ( cd ".libs" && rm -f "libzkmt.la" && ln -s "../libzkmt.la" "libzkmt.la" )
+/bin/sh ./libtool --tag=CC   --mode=link gcc -Wall -Werror  -g -O2 -D_GNU_SOURCE -no-undefined -version-info 2 -export-symbols-regex '(zoo_|zookeeper_|zhandle|Z|format_log_message|log_message|logLevel|deallocate_|zerror|is_unrecoverable)'  -o libzookeeper_mt.la -rpath /home/developer/arcus/lib  libzkmt.la libhashtable.la -lpthread 
+libtool: link: /usr/bin/nm -B   ./.libs/libzkmt.a ./.libs/libhashtable.a | sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | /bin/sed 's/.* //' | sort | uniq > .libs/libzookeeper_mt.exp
+libtool: link: /bin/grep -E -e "(zoo_|zookeeper_|zhandle|Z|format_log_message|log_message|logLevel|deallocate_|zerror|is_unrecoverable)" ".libs/libzookeeper_mt.exp" > ".libs/libzookeeper_mt.expT"
+libtool: link: mv -f ".libs/libzookeeper_mt.expT" ".libs/libzookeeper_mt.exp"
+libtool: link: echo "{ global:" > .libs/libzookeeper_mt.ver
+libtool: link:  cat .libs/libzookeeper_mt.exp | sed -e "s/\(.*\)/\1;/" >> .libs/libzookeeper_mt.ver
+libtool: link:  echo "local: *; };" >> .libs/libzookeeper_mt.ver
+libtool: link:  gcc -shared  -Wl,--whole-archive ./.libs/libzkmt.a ./.libs/libhashtable.a -Wl,--no-whole-archive  -lm -lpthread    -Wl,-soname -Wl,libzookeeper_mt.so.2 -Wl,-version-script -Wl,.libs/libzookeeper_mt.ver -o .libs/libzookeeper_mt.so.2.0.0
+libtool: link: (cd ".libs" && rm -f "libzookeeper_mt.so.2" && ln -s "libzookeeper_mt.so.2.0.0" "libzookeeper_mt.so.2")
+libtool: link: (cd ".libs" && rm -f "libzookeeper_mt.so" && ln -s "libzookeeper_mt.so.2.0.0" "libzookeeper_mt.so")
+libtool: link: (cd .libs/libzookeeper_mt.lax/libzkmt.a && ar x "/home/developer/arcus/zookeeper/src/c/./.libs/libzkmt.a")
+libtool: link: (cd .libs/libzookeeper_mt.lax/libhashtable.a && ar x "/home/developer/arcus/zookeeper/src/c/./.libs/libhashtable.a")
+libtool: link: ar cru .libs/libzookeeper_mt.a   .libs/libzookeeper_mt.lax/libzkmt.a/libzkmt_la-zookeeper.o .libs/libzookeeper_mt.lax/libzkmt.a/libzkmt_la-zookeeper.jute.o .libs/libzookeeper_mt.lax/libzkmt.a/libzkmt_la-zk_hashtable.o .libs/libzookeeper_mt.lax/libzkmt.a/libzkmt_la-mt_adaptor.o .libs/libzookeeper_mt.lax/libzkmt.a/libzkmt_la-recordio.o .libs/libzookeeper_mt.lax/libzkmt.a/libzkmt_la-zk_log.o  .libs/libzookeeper_mt.lax/libhashtable.a/hashtable_itr.o .libs/libzookeeper_mt.lax/libhashtable.a/hashtable.o 
+libtool: link: ranlib .libs/libzookeeper_mt.a
+libtool: link: rm -fr .libs/libzookeeper_mt.lax
+libtool: link: ( cd ".libs" && rm -f "libzookeeper_mt.la" && ln -s "../libzookeeper_mt.la" "libzookeeper_mt.la" )
+gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -Wall -Werror  -g -O2 -D_GNU_SOURCE -MT cli.o -MD -MP -MF .deps/cli.Tpo -c -o cli.o `test -f 'src/cli.c' || echo './'`src/cli.c
+mv -f .deps/cli.Tpo .deps/cli.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc -Wall -Werror  -g -O2 -D_GNU_SOURCE   -o cli_st cli.o libzookeeper_st.la 
+libtool: link: gcc -Wall -Werror -g -O2 -D_GNU_SOURCE -o .libs/cli_st cli.o  ./.libs/libzookeeper_st.so -lm -Wl,-rpath -Wl,/home/developer/arcus/lib
+gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -DTHREADED -g -O2 -D_GNU_SOURCE -MT cli_mt-cli.o -MD -MP -MF .deps/cli_mt-cli.Tpo -c -o cli_mt-cli.o `test -f 'src/cli.c' || echo './'`src/cli.c
+mv -f .deps/cli_mt-cli.Tpo .deps/cli_mt-cli.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc -DTHREADED -g -O2 -D_GNU_SOURCE   -o cli_mt cli_mt-cli.o libzookeeper_mt.la 
+libtool: link: gcc -DTHREADED -g -O2 -D_GNU_SOURCE -o .libs/cli_mt cli_mt-cli.o  ./.libs/libzookeeper_mt.so -lm -lpthread -Wl,-rpath -Wl,/home/developer/arcus/lib
+gcc -DHAVE_CONFIG_H -I.  -I./include -I./tests -I./generated  -DTHREADED -g -O2 -D_GNU_SOURCE -MT load_gen-load_gen.o -MD -MP -MF .deps/load_gen-load_gen.Tpo -c -o load_gen-load_gen.o `test -f 'src/load_gen.c' || echo './'`src/load_gen.c
+mv -f .deps/load_gen-load_gen.Tpo .deps/load_gen-load_gen.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc -DTHREADED -g -O2 -D_GNU_SOURCE   -o load_gen load_gen-load_gen.o libzookeeper_mt.la 
+libtool: link: gcc -DTHREADED -g -O2 -D_GNU_SOURCE -o .libs/load_gen load_gen-load_gen.o  ./.libs/libzookeeper_mt.so -lm -lpthread -Wl,-rpath -Wl,/home/developer/arcus/lib
+make[1]: Leaving directory `/home/developer/arcus/zookeeper/src/c'
+make[1]: Entering directory `/home/developer/arcus/zookeeper/src/c'
+test -z "/home/developer/arcus/lib" || /bin/mkdir -p "/home/developer/arcus/lib"
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libzookeeper_st.la libzookeeper_mt.la '/home/developer/arcus/lib'
+libtool: install: /usr/bin/install -c .libs/libzookeeper_st.so.2.0.0 /home/developer/arcus/lib/libzookeeper_st.so.2.0.0
+libtool: install: (cd /home/developer/arcus/lib && { ln -s -f libzookeeper_st.so.2.0.0 libzookeeper_st.so.2 || { rm -f libzookeeper_st.so.2 && ln -s libzookeeper_st.so.2.0.0 libzookeeper_st.so.2; }; })
+libtool: install: (cd /home/developer/arcus/lib && { ln -s -f libzookeeper_st.so.2.0.0 libzookeeper_st.so || { rm -f libzookeeper_st.so && ln -s libzookeeper_st.so.2.0.0 libzookeeper_st.so; }; })
+libtool: install: /usr/bin/install -c .libs/libzookeeper_st.lai /home/developer/arcus/lib/libzookeeper_st.la
+libtool: install: /usr/bin/install -c .libs/libzookeeper_mt.so.2.0.0 /home/developer/arcus/lib/libzookeeper_mt.so.2.0.0
+libtool: install: (cd /home/developer/arcus/lib && { ln -s -f libzookeeper_mt.so.2.0.0 libzookeeper_mt.so.2 || { rm -f libzookeeper_mt.so.2 && ln -s libzookeeper_mt.so.2.0.0 libzookeeper_mt.so.2; }; })
+libtool: install: (cd /home/developer/arcus/lib && { ln -s -f libzookeeper_mt.so.2.0.0 libzookeeper_mt.so || { rm -f libzookeeper_mt.so && ln -s libzookeeper_mt.so.2.0.0 libzookeeper_mt.so; }; })
+libtool: install: /usr/bin/install -c .libs/libzookeeper_mt.lai /home/developer/arcus/lib/libzookeeper_mt.la
+libtool: install: /usr/bin/install -c .libs/libzookeeper_st.a /home/developer/arcus/lib/libzookeeper_st.a
+libtool: install: chmod 644 /home/developer/arcus/lib/libzookeeper_st.a
+libtool: install: ranlib /home/developer/arcus/lib/libzookeeper_st.a
+libtool: install: /usr/bin/install -c .libs/libzookeeper_mt.a /home/developer/arcus/lib/libzookeeper_mt.a
+libtool: install: chmod 644 /home/developer/arcus/lib/libzookeeper_mt.a
+libtool: install: ranlib /home/developer/arcus/lib/libzookeeper_mt.a
+libtool: finish: PATH="/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/developer/bin:/sbin" ldconfig -n /home/developer/arcus/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/developer/arcus/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/home/developer/arcus/bin" || /bin/mkdir -p "/home/developer/arcus/bin"
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c cli_st cli_mt load_gen '/home/developer/arcus/bin'
+libtool: install: /usr/bin/install -c .libs/cli_st /home/developer/arcus/bin/cli_st
+libtool: install: /usr/bin/install -c .libs/cli_mt /home/developer/arcus/bin/cli_mt
+libtool: install: /usr/bin/install -c .libs/load_gen /home/developer/arcus/bin/load_gen
+test -z "/home/developer/arcus/include/zookeeper" || /bin/mkdir -p "/home/developer/arcus/include/zookeeper"
+ /usr/bin/install -c -m 644 include/zookeeper.h include/zookeeper_version.h include/zookeeper_log.h include/proto.h include/recordio.h generated/zookeeper.jute.h '/home/developer/arcus/include/zookeeper'
+make[1]: Leaving directory `/home/developer/arcus/zookeeper/src/c'
+~/arcus/scripts
+~/arcus/server ~/arcus/scripts
+configure options : --enable-zk-integration --with-libevent=/home/developer/arcus --with-zookeeper=/home/developer/arcus
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for clock_gettime in -lrt... yes
+checking for icc in use... no
+checking for clang in use... no
+checking for Sun cc in use... no
+checking for gcc option to accept ISO C99... -std=gnu99
+checking whether gcc -std=gnu99 and cc understand -c and -o together... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether byte ordering is bigendian... no
+checking link.h usability... yes
+checking link.h presence... yes
+checking for link.h... yes
+checking for dlfcn.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking umem.h usability... no
+checking umem.h presence... no
+checking for umem.h... no
+checking priv.h usability... no
+checking priv.h presence... no
+checking for priv.h... no
+checking sasl/sasl.h usability... no
+checking sasl/sasl.h presence... no
+checking for sasl/sasl.h... no
+checking sysexits.h usability... yes
+checking sysexits.h presence... yes
+checking for sysexits.h... yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking for unistd.h... (cached) yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking netinet/tcp.h usability... yes
+checking netinet/tcp.h presence... yes
+checking for netinet/tcp.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking for libevent directory... /home/developer/arcus
+checking for zookeeper directory... /home/developer/arcus
+checking for library containing socket... none required
+checking for library containing gethostbyname... none required
+checking for library containing umem_cache_create... no
+checking for library containing gethugepagesizes... no
+checking for library containing dlopen... -ldl
+checking for library containing log... -lm
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for print macros for integers (C99 section 7.8.1)... yes
+checking for an ANSI C-conforming const... yes
+checking for socklen_t... yes
+checking for htonll... no
+checking for library containing pthread_create... none required
+checking for mlockall... yes
+checking for getpagesizes... no
+checking for memcntl... no
+checking for sigignore... yes
+checking for alignment... need
+checking for setppriv... no
+checking for dot... no
+checking for doxygen... doxygen
+checking for perl... /usr/bin/perl
+configure: creating ./config.status
+config.status: creating t/binary-sasl.t
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating config/Doxyfile
+config.status: creating config/Doxyfile-api
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Making clean in doc
+make[1]: Entering directory `/home/developer/arcus/server/doc'
+rm -rf .libs _libs
+test -z "" || rm -f 
+rm -f *.lo
+make[1]: Leaving directory `/home/developer/arcus/server/doc'
+Making clean in .
+make[1]: Entering directory `/home/developer/arcus/server'
+ rm -f engine_testapp memcached
+test -z " " || rm -f  
+test -z "ascii_scrub.la basic_engine_testsuite.la default_engine.la demo_engine.la example_protocol.la stdin_term_handler.la syslog_logger.la" || rm -f ascii_scrub.la basic_engine_testsuite.la default_engine.la demo_engine.la example_protocol.la stdin_term_handler.la syslog_logger.la
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -f "./so_locations"
+rm -rf .libs _libs
+rm -rf engines/default/.libs engines/default/_libs
+rm -rf engines/demo/.libs engines/demo/_libs
+test -z "libarcuszk.a" || rm -f libarcuszk.a
+test -z "libmcd_util.la" || rm -f libmcd_util.la
+rm -f "./so_locations"
+ rm -f sizes testapp timedrun
+rm -f *.o
+rm -f engines/default/assoc.o
+rm -f engines/default/assoc.lo
+rm -f engines/default/default_engine.o
+rm -f engines/default/default_engine.lo
+rm -f engines/default/item_clog.o
+rm -f engines/default/item_clog.lo
+rm -f engines/default/items.o
+rm -f engines/default/items.lo
+rm -f engines/default/memcached-assoc.o
+rm -f engines/default/memcached-default_engine.o
+rm -f engines/default/memcached-item_clog.o
+rm -f engines/default/memcached-items.o
+rm -f engines/default/memcached-slabs.o
+rm -f engines/default/slabs.o
+rm -f engines/default/slabs.lo
+rm -f engines/demo/demo_engine.o
+rm -f engines/demo/demo_engine.lo
+rm -f engines/demo/dm_assoc.o
+rm -f engines/demo/dm_assoc.lo
+rm -f engines/demo/dm_items.o
+rm -f engines/demo/dm_items.lo
+rm -f engines/demo/memcached-demo_engine.o
+rm -f engines/demo/memcached-dm_assoc.o
+rm -f engines/demo/memcached-dm_items.o
+test -z "*.gcov *.gcno *.gcda *.tcov" || rm -f *.gcov *.gcno *.gcda *.tcov
+rm -f *.lo
+make[1]: Leaving directory `/home/developer/arcus/server'
+make  all-recursive
+make[1]: Entering directory `/home/developer/arcus/server'
+Making all in doc
+make[2]: Entering directory `/home/developer/arcus/server/doc'
+make  all-am
+make[3]: Entering directory `/home/developer/arcus/server/doc'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/home/developer/arcus/server/doc'
+make[2]: Leaving directory `/home/developer/arcus/server/doc'
+make[2]: Entering directory `/home/developer/arcus/server'
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror   -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT libarcuszk_a-arcus_zk.o -MD -MP -MF .deps/libarcuszk_a-arcus_zk.Tpo -c -o libarcuszk_a-arcus_zk.o `test -f 'arcus_zk.c' || echo './'`arcus_zk.c
+mv -f .deps/libarcuszk_a-arcus_zk.Tpo .deps/libarcuszk_a-arcus_zk.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror   -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT libarcuszk_a-cluster_config.o -MD -MP -MF .deps/libarcuszk_a-cluster_config.Tpo -c -o libarcuszk_a-cluster_config.o `test -f 'cluster_config.c' || echo './'`cluster_config.c
+mv -f .deps/libarcuszk_a-cluster_config.Tpo .deps/libarcuszk_a-cluster_config.Po
+rm -f libarcuszk.a
+ar cru libarcuszk.a libarcuszk_a-arcus_zk.o libarcuszk_a-cluster_config.o 
+ranlib libarcuszk.a
+depbase=`echo ascii_scrub.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT ascii_scrub.lo -MD -MP -MF $depbase.Tpo -c -o ascii_scrub.lo ascii_scrub.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT ascii_scrub.lo -MD -MP -MF .deps/ascii_scrub.Tpo -c ascii_scrub.c  -fPIC -DPIC -o .libs/ascii_scrub.o
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -avoid-version -shared -module -no-undefined -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o ascii_scrub.la -rpath /home/developer/arcus/lib ascii_scrub.lo  
+libtool: link: gcc -shared  .libs/ascii_scrub.o   -L/home/developer/arcus/lib  -pthread   -pthread -Wl,-soname -Wl,ascii_scrub.so -o .libs/ascii_scrub.so
+libtool: link: ( cd ".libs" && rm -f "ascii_scrub.la" && ln -s "../ascii_scrub.la" "ascii_scrub.la" )
+depbase=`echo basic_engine_testsuite.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT basic_engine_testsuite.lo -MD -MP -MF $depbase.Tpo -c -o basic_engine_testsuite.lo basic_engine_testsuite.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT basic_engine_testsuite.lo -MD -MP -MF .deps/basic_engine_testsuite.Tpo -c basic_engine_testsuite.c  -fPIC -DPIC -o .libs/basic_engine_testsuite.o
+depbase=`echo config_parser.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT config_parser.lo -MD -MP -MF $depbase.Tpo -c -o config_parser.lo config_parser.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT config_parser.lo -MD -MP -MF .deps/config_parser.Tpo -c config_parser.c  -fPIC -DPIC -o .libs/config_parser.o
+depbase=`echo engine_loader.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engine_loader.lo -MD -MP -MF $depbase.Tpo -c -o engine_loader.lo engine_loader.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT engine_loader.lo -MD -MP -MF .deps/engine_loader.Tpo -c engine_loader.c  -fPIC -DPIC -o .libs/engine_loader.o
+depbase=`echo extension_loggers.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT extension_loggers.lo -MD -MP -MF $depbase.Tpo -c -o extension_loggers.lo extension_loggers.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT extension_loggers.lo -MD -MP -MF .deps/extension_loggers.Tpo -c extension_loggers.c  -fPIC -DPIC -o .libs/extension_loggers.o
+depbase=`echo genhash.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT genhash.lo -MD -MP -MF $depbase.Tpo -c -o genhash.lo genhash.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT genhash.lo -MD -MP -MF .deps/genhash.Tpo -c genhash.c  -fPIC -DPIC -o .libs/genhash.o
+depbase=`echo mock_server.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT mock_server.lo -MD -MP -MF $depbase.Tpo -c -o mock_server.lo mock_server.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT mock_server.lo -MD -MP -MF .deps/mock_server.Tpo -c mock_server.c  -fPIC -DPIC -o .libs/mock_server.o
+depbase=`echo util.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT util.lo -MD -MP -MF $depbase.Tpo -c -o util.lo util.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT util.lo -MD -MP -MF .deps/util.Tpo -c util.c  -fPIC -DPIC -o .libs/util.o
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing   -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o libmcd_util.la  config_parser.lo engine_loader.lo extension_loggers.lo genhash.lo mock_server.lo util.lo  
+libtool: link: ar cru .libs/libmcd_util.a .libs/config_parser.o .libs/engine_loader.o .libs/extension_loggers.o .libs/genhash.o .libs/mock_server.o .libs/util.o 
+libtool: link: ranlib .libs/libmcd_util.a
+libtool: link: ( cd ".libs" && rm -f "libmcd_util.la" && ln -s "../libmcd_util.la" "libmcd_util.la" )
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -avoid-version -shared -module -no-undefined -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o basic_engine_testsuite.la -rpath /home/developer/arcus/lib basic_engine_testsuite.lo libmcd_util.la -lm  
+libtool: link: gcc -shared  .libs/basic_engine_testsuite.o  -Wl,--whole-archive ./.libs/libmcd_util.a -Wl,--no-whole-archive  -L/home/developer/arcus/lib -lm  -pthread   -pthread -Wl,-soname -Wl,basic_engine_testsuite.so -o .libs/basic_engine_testsuite.so
+libtool: link: ( cd ".libs" && rm -f "basic_engine_testsuite.la" && ln -s "../basic_engine_testsuite.la" "basic_engine_testsuite.la" )
+depbase=`echo engines/default/assoc.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engines/default/assoc.lo -MD -MP -MF $depbase.Tpo -c -o engines/default/assoc.lo engines/default/assoc.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT engines/default/assoc.lo -MD -MP -MF engines/default/.deps/assoc.Tpo -c engines/default/assoc.c  -fPIC -DPIC -o engines/default/.libs/assoc.o
+depbase=`echo engines/default/default_engine.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engines/default/default_engine.lo -MD -MP -MF $depbase.Tpo -c -o engines/default/default_engine.lo engines/default/default_engine.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT engines/default/default_engine.lo -MD -MP -MF engines/default/.deps/default_engine.Tpo -c engines/default/default_engine.c  -fPIC -DPIC -o engines/default/.libs/default_engine.o
+depbase=`echo engines/default/items.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engines/default/items.lo -MD -MP -MF $depbase.Tpo -c -o engines/default/items.lo engines/default/items.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT engines/default/items.lo -MD -MP -MF engines/default/.deps/items.Tpo -c engines/default/items.c  -fPIC -DPIC -o engines/default/.libs/items.o
+depbase=`echo engines/default/item_clog.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engines/default/item_clog.lo -MD -MP -MF $depbase.Tpo -c -o engines/default/item_clog.lo engines/default/item_clog.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT engines/default/item_clog.lo -MD -MP -MF engines/default/.deps/item_clog.Tpo -c engines/default/item_clog.c  -fPIC -DPIC -o engines/default/.libs/item_clog.o
+depbase=`echo engines/default/slabs.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engines/default/slabs.lo -MD -MP -MF $depbase.Tpo -c -o engines/default/slabs.lo engines/default/slabs.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT engines/default/slabs.lo -MD -MP -MF engines/default/.deps/slabs.Tpo -c engines/default/slabs.c  -fPIC -DPIC -o engines/default/.libs/slabs.o
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -avoid-version -shared -module -no-undefined -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o default_engine.la -rpath /home/developer/arcus/lib engines/default/assoc.lo engines/default/default_engine.lo engines/default/items.lo engines/default/item_clog.lo engines/default/slabs.lo libmcd_util.la -lm   
+libtool: link: gcc -shared  engines/default/.libs/assoc.o engines/default/.libs/default_engine.o engines/default/.libs/items.o engines/default/.libs/item_clog.o engines/default/.libs/slabs.o  -Wl,--whole-archive ./.libs/libmcd_util.a -Wl,--no-whole-archive  -L/home/developer/arcus/lib -lm  -pthread   -pthread -Wl,-soname -Wl,default_engine.so -o .libs/default_engine.so
+libtool: link: ( cd ".libs" && rm -f "default_engine.la" && ln -s "../default_engine.la" "default_engine.la" )
+depbase=`echo engines/demo/demo_engine.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engines/demo/demo_engine.lo -MD -MP -MF $depbase.Tpo -c -o engines/demo/demo_engine.lo engines/demo/demo_engine.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT engines/demo/demo_engine.lo -MD -MP -MF engines/demo/.deps/demo_engine.Tpo -c engines/demo/demo_engine.c  -fPIC -DPIC -o engines/demo/.libs/demo_engine.o
+depbase=`echo engines/demo/dm_items.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engines/demo/dm_items.lo -MD -MP -MF $depbase.Tpo -c -o engines/demo/dm_items.lo engines/demo/dm_items.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT engines/demo/dm_items.lo -MD -MP -MF engines/demo/.deps/dm_items.Tpo -c engines/demo/dm_items.c  -fPIC -DPIC -o engines/demo/.libs/dm_items.o
+depbase=`echo engines/demo/dm_assoc.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engines/demo/dm_assoc.lo -MD -MP -MF $depbase.Tpo -c -o engines/demo/dm_assoc.lo engines/demo/dm_assoc.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT engines/demo/dm_assoc.lo -MD -MP -MF engines/demo/.deps/dm_assoc.Tpo -c engines/demo/dm_assoc.c  -fPIC -DPIC -o engines/demo/.libs/dm_assoc.o
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -avoid-version -shared -module -no-undefined -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o demo_engine.la -rpath /home/developer/arcus/lib engines/demo/demo_engine.lo engines/demo/dm_items.lo engines/demo/dm_assoc.lo libmcd_util.la -lm   
+libtool: link: gcc -shared  engines/demo/.libs/demo_engine.o engines/demo/.libs/dm_items.o engines/demo/.libs/dm_assoc.o  -Wl,--whole-archive ./.libs/libmcd_util.a -Wl,--no-whole-archive  -L/home/developer/arcus/lib -lm  -pthread   -pthread -Wl,-soname -Wl,demo_engine.so -o .libs/demo_engine.so
+libtool: link: ( cd ".libs" && rm -f "demo_engine.la" && ln -s "../demo_engine.la" "demo_engine.la" )
+depbase=`echo example_protocol.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT example_protocol.lo -MD -MP -MF $depbase.Tpo -c -o example_protocol.lo example_protocol.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT example_protocol.lo -MD -MP -MF .deps/example_protocol.Tpo -c example_protocol.c  -fPIC -DPIC -o .libs/example_protocol.o
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -avoid-version -shared -module -no-undefined -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o example_protocol.la -rpath /home/developer/arcus/lib example_protocol.lo  
+libtool: link: gcc -shared  .libs/example_protocol.o   -L/home/developer/arcus/lib  -pthread   -pthread -Wl,-soname -Wl,example_protocol.so -o .libs/example_protocol.so
+libtool: link: ( cd ".libs" && rm -f "example_protocol.la" && ln -s "../example_protocol.la" "example_protocol.la" )
+depbase=`echo stdin_check.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT stdin_check.lo -MD -MP -MF $depbase.Tpo -c -o stdin_check.lo stdin_check.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT stdin_check.lo -MD -MP -MF .deps/stdin_check.Tpo -c stdin_check.c  -fPIC -DPIC -o .libs/stdin_check.o
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -avoid-version -shared -module -no-undefined -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o stdin_term_handler.la -rpath /home/developer/arcus/lib stdin_check.lo  
+libtool: link: gcc -shared  .libs/stdin_check.o   -L/home/developer/arcus/lib  -pthread   -pthread -Wl,-soname -Wl,stdin_term_handler.so -o .libs/stdin_term_handler.so
+libtool: link: ( cd ".libs" && rm -f "stdin_term_handler.la" && ln -s "../stdin_term_handler.la" "stdin_term_handler.la" )
+depbase=`echo syslog_logger.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT syslog_logger.lo -MD -MP -MF $depbase.Tpo -c -o syslog_logger.lo syslog_logger.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -MT syslog_logger.lo -MD -MP -MF .deps/syslog_logger.Tpo -c syslog_logger.c  -fPIC -DPIC -o .libs/syslog_logger.o
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -avoid-version -shared -module -no-undefined -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o syslog_logger.la -rpath /home/developer/arcus/lib syslog_logger.lo  
+libtool: link: gcc -shared  .libs/syslog_logger.o   -L/home/developer/arcus/lib  -pthread   -pthread -Wl,-soname -Wl,syslog_logger.so -o .libs/syslog_logger.so
+libtool: link: ( cd ".libs" && rm -f "syslog_logger.la" && ln -s "../syslog_logger.la" "syslog_logger.la" )
+depbase=`echo engine_testapp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT engine_testapp.o -MD -MP -MF $depbase.Tpo -c -o engine_testapp.o engine_testapp.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing   -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o engine_testapp engine_testapp.o libmcd_util.la -ldl  -lm  
+libtool: link: gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -o engine_testapp engine_testapp.o  -L/home/developer/arcus/lib ./.libs/libmcd_util.a -ldl -lm -pthread
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-daemon.o -MD -MP -MF .deps/memcached-daemon.Tpo -c -o memcached-daemon.o `test -f 'daemon.c' || echo './'`daemon.c
+mv -f .deps/memcached-daemon.Tpo .deps/memcached-daemon.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-hash.o -MD -MP -MF .deps/memcached-hash.Tpo -c -o memcached-hash.o `test -f 'hash.c' || echo './'`hash.c
+mv -f .deps/memcached-hash.Tpo .deps/memcached-hash.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-memcached.o -MD -MP -MF .deps/memcached-memcached.Tpo -c -o memcached-memcached.o `test -f 'memcached.c' || echo './'`memcached.c
+mv -f .deps/memcached-memcached.Tpo .deps/memcached-memcached.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-stats.o -MD -MP -MF .deps/memcached-stats.Tpo -c -o memcached-stats.o `test -f 'stats.c' || echo './'`stats.c
+mv -f .deps/memcached-stats.Tpo .deps/memcached-stats.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-thread.o -MD -MP -MF .deps/memcached-thread.Tpo -c -o memcached-thread.o `test -f 'thread.c' || echo './'`thread.c
+mv -f .deps/memcached-thread.Tpo .deps/memcached-thread.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-mc_util.o -MD -MP -MF .deps/memcached-mc_util.Tpo -c -o memcached-mc_util.o `test -f 'mc_util.c' || echo './'`mc_util.c
+mv -f .deps/memcached-mc_util.Tpo .deps/memcached-mc_util.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-topkeys.o -MD -MP -MF .deps/memcached-topkeys.Tpo -c -o memcached-topkeys.o `test -f 'topkeys.c' || echo './'`topkeys.c
+mv -f .deps/memcached-topkeys.Tpo .deps/memcached-topkeys.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-cmdlog.o -MD -MP -MF .deps/memcached-cmdlog.Tpo -c -o memcached-cmdlog.o `test -f 'cmdlog.c' || echo './'`cmdlog.c
+mv -f .deps/memcached-cmdlog.Tpo .deps/memcached-cmdlog.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-lqdetect.o -MD -MP -MF .deps/memcached-lqdetect.Tpo -c -o memcached-lqdetect.o `test -f 'lqdetect.c' || echo './'`lqdetect.c
+mv -f .deps/memcached-lqdetect.Tpo .deps/memcached-lqdetect.Po
+gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT memcached-cache.o -MD -MP -MF .deps/memcached-cache.Tpo -c -o memcached-cache.o `test -f 'cache.c' || echo './'`cache.c
+mv -f .deps/memcached-cache.Tpo .deps/memcached-cache.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -R '/home/developer/arcus/lib'  -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o memcached memcached-daemon.o memcached-hash.o memcached-memcached.o memcached-stats.o memcached-thread.o memcached-mc_util.o memcached-topkeys.o memcached-cmdlog.o memcached-lqdetect.o memcached-cache.o       libmcd_util.la -levent -ldl  -lm  libarcuszk.a -lzookeeper_mt  
+libtool: link: gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -o memcached memcached-daemon.o memcached-hash.o memcached-memcached.o memcached-stats.o memcached-thread.o memcached-mc_util.o memcached-topkeys.o memcached-cmdlog.o memcached-lqdetect.o memcached-cache.o  -L/home/developer/arcus/lib ./.libs/libmcd_util.a /home/developer/arcus/lib/libevent.so -lnsl -lrt -lresolv -ldl libarcuszk.a /home/developer/arcus/lib/libzookeeper_mt.so -lm -lpthread -pthread -Wl,-rpath -Wl,/home/developer/arcus/lib -Wl,-rpath -Wl,/home/developer/arcus/lib
+depbase=`echo sizes.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT sizes.o -MD -MP -MF $depbase.Tpo -c -o sizes.o sizes.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing   -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o sizes sizes.o  
+libtool: link: gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -o sizes sizes.o  -L/home/developer/arcus/lib -pthread
+depbase=`echo testapp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT testapp.o -MD -MP -MF $depbase.Tpo -c -o testapp.o testapp.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+depbase=`echo cache.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT cache.o -MD -MP -MF $depbase.Tpo -c -o cache.o cache.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing   -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o testapp testapp.o cache.o libmcd_util.la -ldl  -lm  
+libtool: link: gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -o testapp testapp.o cache.o  -L/home/developer/arcus/lib ./.libs/libmcd_util.a -ldl -lm -pthread
+depbase=`echo timedrun.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	gcc -std=gnu99 -DHAVE_CONFIG_H -I.   -I./include -I/home/developer/arcus/include/zookeeper -I/home/developer/arcus/include  -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing  -MT timedrun.o -MD -MP -MF $depbase.Tpo -c -o timedrun.o timedrun.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing   -L/home/developer/arcus/lib -L/home/developer/arcus/lib  -o timedrun timedrun.o  
+libtool: link: gcc -std=gnu99 -fvisibility=hidden -pthread -g -O2 -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -fno-strict-aliasing -o timedrun timedrun.o  -L/home/developer/arcus/lib -pthread
+make[2]: Leaving directory `/home/developer/arcus/server'
+make[1]: Leaving directory `/home/developer/arcus/server'
+make  install-recursive
+make[1]: Entering directory `/home/developer/arcus/server'
+Making install in doc
+make[2]: Entering directory `/home/developer/arcus/server/doc'
+make  install-am
+make[3]: Entering directory `/home/developer/arcus/server/doc'
+make[4]: Entering directory `/home/developer/arcus/server/doc'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/developer/arcus/share/man/man1" || /bin/mkdir -p "/home/developer/arcus/share/man/man1"
+ /usr/bin/install -c -m 644 memcached.1 '/home/developer/arcus/share/man/man1'
+make[4]: Leaving directory `/home/developer/arcus/server/doc'
+make[3]: Leaving directory `/home/developer/arcus/server/doc'
+make[2]: Leaving directory `/home/developer/arcus/server/doc'
+make[2]: Entering directory `/home/developer/arcus/server'
+make[3]: Entering directory `/home/developer/arcus/server'
+test -z "/home/developer/arcus/lib" || /bin/mkdir -p "/home/developer/arcus/lib"
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   ascii_scrub.la basic_engine_testsuite.la default_engine.la demo_engine.la example_protocol.la stdin_term_handler.la syslog_logger.la '/home/developer/arcus/lib'
+libtool: install: /usr/bin/install -c .libs/ascii_scrub.so /home/developer/arcus/lib/ascii_scrub.so
+libtool: install: /usr/bin/install -c .libs/ascii_scrub.lai /home/developer/arcus/lib/ascii_scrub.la
+libtool: install: /usr/bin/install -c .libs/basic_engine_testsuite.so /home/developer/arcus/lib/basic_engine_testsuite.so
+libtool: install: /usr/bin/install -c .libs/basic_engine_testsuite.lai /home/developer/arcus/lib/basic_engine_testsuite.la
+libtool: install: /usr/bin/install -c .libs/default_engine.so /home/developer/arcus/lib/default_engine.so
+libtool: install: /usr/bin/install -c .libs/default_engine.lai /home/developer/arcus/lib/default_engine.la
+libtool: install: /usr/bin/install -c .libs/demo_engine.so /home/developer/arcus/lib/demo_engine.so
+libtool: install: /usr/bin/install -c .libs/demo_engine.lai /home/developer/arcus/lib/demo_engine.la
+libtool: install: /usr/bin/install -c .libs/example_protocol.so /home/developer/arcus/lib/example_protocol.so
+libtool: install: /usr/bin/install -c .libs/example_protocol.lai /home/developer/arcus/lib/example_protocol.la
+libtool: install: /usr/bin/install -c .libs/stdin_term_handler.so /home/developer/arcus/lib/stdin_term_handler.so
+libtool: install: /usr/bin/install -c .libs/stdin_term_handler.lai /home/developer/arcus/lib/stdin_term_handler.la
+libtool: install: /usr/bin/install -c .libs/syslog_logger.so /home/developer/arcus/lib/syslog_logger.so
+libtool: install: /usr/bin/install -c .libs/syslog_logger.lai /home/developer/arcus/lib/syslog_logger.la
+libtool: finish: PATH="/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/developer/bin:/sbin" ldconfig -n /home/developer/arcus/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/developer/arcus/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/home/developer/arcus/bin" || /bin/mkdir -p "/home/developer/arcus/bin"
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c engine_testapp memcached '/home/developer/arcus/bin'
+libtool: install: /usr/bin/install -c engine_testapp /home/developer/arcus/bin/engine_testapp
+libtool: install: /usr/bin/install -c memcached /home/developer/arcus/bin/memcached
+test -z "/home/developer/arcus/include/arcus-memcached" || /bin/mkdir -p "/home/developer/arcus/include/arcus-memcached"
+ /usr/bin/install -c -m 644 include/memcached/callback.h include/memcached/config_parser.h include/memcached/engine.h include/memcached/engine_common.h include/memcached/engine_testapp.h include/memcached/extension.h include/memcached/extension_loggers.h include/memcached/genhash.h include/memcached/mock_server.h include/memcached/protocol_binary.h include/memcached/protocol_plugin.h include/memcached/server_api.h include/memcached/types.h include/memcached/util.h include/memcached/vbucket.h include/memcached/visibility.h '/home/developer/arcus/include/arcus-memcached'
+make[3]: Leaving directory `/home/developer/arcus/server'
+make[2]: Leaving directory `/home/developer/arcus/server'
+make[1]: Leaving directory `/home/developer/arcus/server'
+~/arcus/scripts
+Creating /home/developer/arcus/lib/python/site-packages/site.py
+Searching for kazoo==2.6.1
+Reading https://pypi.python.org/simple/kazoo/
+Best match: kazoo 2.6.1
+Downloading https://files.pythonhosted.org/packages/01/d6/77d8067b56ef78326b8cbc85d896e29cb9ceae996a24d752e1cb93011b85/kazoo-2.6.1.tar.gz#sha256=4a73c2c62a7163ca1c4aef82aa042d795560497cc81034f212ef13cc037cc783
+Processing kazoo-2.6.1.tar.gz
+Running kazoo-2.6.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-ZrW2Hf/kazoo-2.6.1/egg-dist-tmp-itIzJr
+/usr/lib64/python2.6/distutils/dist.py:266: UserWarning: Unknown distribution option: 'long_description_content_type'
+  warnings.warn(msg)
+warning: no previously-included files found matching '.gitignore'
+warning: no previously-included files found matching '.travis.yml'
+warning: no previously-included files found matching 'Makefile'
+warning: no previously-included files found matching 'run_failure.py'
+warning: no previously-included files matching '*pyc' found anywhere in distribution
+warning: no previously-included files matching '*pyo' found anywhere in distribution
+Adding kazoo 2.6.1 to easy-install.pth file
+
+Installed /home/developer/arcus/lib/python/site-packages/kazoo-2.6.1-py2.6.egg
+Processing dependencies for kazoo==2.6.1
+Searching for six
+Reading https://pypi.python.org/simple/six/
+Best match: six 1.15.0
+Downloading https://files.pythonhosted.org/packages/6b/34/415834bfdafca3c5f451532e8a8d9ba89a21c9743a0c59fbd0205c7f9426/six-1.15.0.tar.gz#sha256=30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259
+Processing six-1.15.0.tar.gz
+Running six-1.15.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-OXXntl/six-1.15.0/egg-dist-tmp-BuOV0c
+/usr/lib64/python2.6/distutils/dist.py:266: UserWarning: Unknown distribution option: 'python_requires'
+  warnings.warn(msg)
+no previously-included directories found matching 'documentation/_build'
+zip_safe flag not set; analyzing archive contents...
+six: module references __path__
+Adding six 1.15.0 to easy-install.pth file
+
+Installed /home/developer/arcus/lib/python/site-packages/six-1.15.0-py2.6.egg
+Processing dependencies for six
+Finished processing dependencies for six
+Finished processing dependencies for kazoo==2.6.1
+Searching for markupsafe==1.1.1
+Reading https://pypi.python.org/simple/markupsafe/
+Best match: MarkupSafe 1.1.1
+Downloading https://files.pythonhosted.org/packages/b9/2e/64db92e53b86efccfaea71321f597fa2e1b2bd3853d8ce658568f7a13094/MarkupSafe-1.1.1.tar.gz#sha256=29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b
+Processing MarkupSafe-1.1.1.tar.gz
+Running MarkupSafe-1.1.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-76ucg0/MarkupSafe-1.1.1/egg-dist-tmp-KYGSlR
+/usr/lib64/python2.6/distutils/dist.py:266: UserWarning: Unknown distribution option: 'project_urls'
+  warnings.warn(msg)
+/usr/lib64/python2.6/distutils/dist.py:266: UserWarning: Unknown distribution option: 'python_requires'
+  warnings.warn(msg)
+no previously-included directories found matching 'docs/_build'
+warning: no previously-included files matching '*.py[co]' found anywhere in distribution
+zip_safe flag not set; analyzing archive contents...
+Adding MarkupSafe 1.1.1 to easy-install.pth file
+
+Installed /home/developer/arcus/lib/python/site-packages/MarkupSafe-1.1.1-py2.6-linux-x86_64.egg
+Processing dependencies for markupsafe==1.1.1
+Finished processing dependencies for markupsafe==1.1.1
+Searching for jinja2==2.10
+Reading https://pypi.python.org/simple/jinja2/
+Best match: Jinja2 2.10
+Downloading https://files.pythonhosted.org/packages/56/e6/332789f295cf22308386cf5bbd1f4e00ed11484299c5d7383378cf48ba47/Jinja2-2.10.tar.gz#sha256=f84be1bb0040caca4cea721fcbbbbd61f9be9464ca236387158b0feea01914a4
+Processing Jinja2-2.10.tar.gz
+Running Jinja2-2.10/setup.py -q bdist_egg --dist-dir /tmp/easy_install-QtLxV5/Jinja2-2.10/egg-dist-tmp-CTm5oO
+warning: no previously-included files matching '*.py[co]' found anywhere in distribution
+no previously-included directories found matching 'docs/_build'
+SyntaxError: ('invalid syntax', ('build/bdist.linux-x86_64/egg/jinja2/asyncsupport.py', 22, 9, 'async def concat_async(async_gen):\n'))
+
+SyntaxError: ('invalid syntax', ('build/bdist.linux-x86_64/egg/jinja2/asyncfilters.py', 7, 9, 'async def auto_to_seq(value):\n'))
+
+SyntaxError: ('invalid syntax', ('/home/developer/arcus/lib/python/site-packages/Jinja2-2.10-py2.6.egg/jinja2/asyncsupport.py', 22, 9, 'async def concat_async(async_gen):\n'))
+
+SyntaxError: ('invalid syntax', ('/home/developer/arcus/lib/python/site-packages/Jinja2-2.10-py2.6.egg/jinja2/asyncfilters.py', 7, 9, 'async def auto_to_seq(value):\n'))
+
+Adding Jinja2 2.10 to easy-install.pth file
+
+Installed /home/developer/arcus/lib/python/site-packages/Jinja2-2.10-py2.6.egg
+Processing dependencies for jinja2==2.10
+Searching for MarkupSafe==1.1.1
+Best match: MarkupSafe 1.1.1
+Processing MarkupSafe-1.1.1-py2.6-linux-x86_64.egg
+MarkupSafe 1.1.1 is already the active version in easy-install.pth
+
+Installed /home/developer/arcus/lib/python/site-packages/MarkupSafe-1.1.1-py2.6-linux-x86_64.egg
+Processing dependencies for MarkupSafe==1.1.1
+Finished processing dependencies for MarkupSafe==1.1.1
+Finished processing dependencies for jinja2==2.10
+Searching for pycrypto==2.4.1
+Reading https://pypi.python.org/simple/pycrypto/
+Best match: pycrypto 2.4.1
+Downloading https://files.pythonhosted.org/packages/51/94/f62c78fd7f695ecf3e7b510e07daaf35504c9fcbe33d87e9df0fd84e1562/pycrypto-2.4.1.tar.gz#sha256=4ff5f7008869c8509d16a31f285b9f6340c4a9ff703c85298832a2869210b154
+Processing pycrypto-2.4.1.tar.gz
+Running pycrypto-2.4.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-e6FyLs/pycrypto-2.4.1/egg-dist-tmp-33AnwG
+warning: GMP or MPIR library not found; Not building Crypto.PublicKey._fastmath.
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/MD2.c:31:
+/usr/include/python2.6/pyconfig-64.h:1034:1: warning: "_POSIX_C_SOURCE" redefined
+In file included from /usr/include/string.h:25,
+                 from src/MD2.c:30:
+/usr/include/features.h:168:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/MD2.c:31:
+/usr/include/python2.6/pyconfig-64.h:1043:1: warning: "_XOPEN_SOURCE" redefined
+In file included from /usr/include/string.h:25,
+                 from src/MD2.c:30:
+/usr/include/features.h:170:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/MD4.c:31:
+/usr/include/python2.6/pyconfig-64.h:1034:1: warning: "_POSIX_C_SOURCE" redefined
+In file included from /usr/include/string.h:25,
+                 from src/MD4.c:30:
+/usr/include/features.h:168:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/MD4.c:31:
+/usr/include/python2.6/pyconfig-64.h:1043:1: warning: "_XOPEN_SOURCE" redefined
+In file included from /usr/include/string.h:25,
+                 from src/MD4.c:30:
+/usr/include/features.h:170:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/RIPEMD160.c:57:
+/usr/include/python2.6/pyconfig-64.h:1034:1: warning: "_POSIX_C_SOURCE" redefined
+In file included from /usr/include/stdint.h:25,
+                 from src/RIPEMD160.c:48:
+/usr/include/features.h:168:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/RIPEMD160.c:57:
+/usr/include/python2.6/pyconfig-64.h:1043:1: warning: "_XOPEN_SOURCE" redefined
+In file included from /usr/include/stdint.h:25,
+                 from src/RIPEMD160.c:48:
+/usr/include/features.h:170:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/AES.c:29:
+/usr/include/python2.6/pyconfig-64.h:1034:1: warning: "_POSIX_C_SOURCE" redefined
+In file included from /usr/include/assert.h:36,
+                 from src/AES.c:27:
+/usr/include/features.h:168:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/AES.c:29:
+/usr/include/python2.6/pyconfig-64.h:1043:1: warning: "_XOPEN_SOURCE" redefined
+In file included from /usr/include/assert.h:36,
+                 from src/AES.c:27:
+/usr/include/features.h:170:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/ARC2.c:45:
+/usr/include/python2.6/pyconfig-64.h:1034:1: warning: "_POSIX_C_SOURCE" redefined
+In file included from /usr/include/string.h:25,
+                 from src/ARC2.c:44:
+/usr/include/features.h:168:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/ARC2.c:45:
+/usr/include/python2.6/pyconfig-64.h:1043:1: warning: "_XOPEN_SOURCE" redefined
+In file included from /usr/include/string.h:25,
+                 from src/ARC2.c:44:
+/usr/include/features.h:170:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/Blowfish.c:39:
+/usr/include/python2.6/pyconfig-64.h:1034:1: warning: "_POSIX_C_SOURCE" redefined
+In file included from /usr/include/stdint.h:25,
+                 from src/Blowfish.c:31:
+/usr/include/features.h:168:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/Blowfish.c:39:
+/usr/include/python2.6/pyconfig-64.h:1043:1: warning: "_XOPEN_SOURCE" redefined
+In file included from /usr/include/stdint.h:25,
+                 from src/Blowfish.c:31:
+/usr/include/features.h:170:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/DES.c:37:
+/usr/include/python2.6/pyconfig-64.h:1034:1: warning: "_POSIX_C_SOURCE" redefined
+In file included from /usr/include/assert.h:36,
+                 from src/libtom/tomcrypt.h:3,
+                 from src/libtom/tomcrypt_des.c:11,
+                 from src/DES.c:32:
+/usr/include/features.h:168:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/DES.c:37:
+/usr/include/python2.6/pyconfig-64.h:1043:1: warning: "_XOPEN_SOURCE" redefined
+In file included from /usr/include/assert.h:36,
+                 from src/libtom/tomcrypt.h:3,
+                 from src/libtom/tomcrypt_des.c:11,
+                 from src/DES.c:32:
+/usr/include/features.h:170:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/DES.c:37,
+                 from src/DES3.c:26:
+/usr/include/python2.6/pyconfig-64.h:1034:1: warning: "_POSIX_C_SOURCE" redefined
+In file included from /usr/include/assert.h:36,
+                 from src/libtom/tomcrypt.h:3,
+                 from src/libtom/tomcrypt_des.c:11,
+                 from src/DES.c:32,
+                 from src/DES3.c:26:
+/usr/include/features.h:168:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/DES.c:37,
+                 from src/DES3.c:26:
+/usr/include/python2.6/pyconfig-64.h:1043:1: warning: "_XOPEN_SOURCE" redefined
+In file included from /usr/include/assert.h:36,
+                 from src/libtom/tomcrypt.h:3,
+                 from src/libtom/tomcrypt_des.c:11,
+                 from src/DES.c:32,
+                 from src/DES3.c:26:
+/usr/include/features.h:170:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/_counter.c:28:
+/usr/include/python2.6/pyconfig-64.h:1034:1: warning: "_POSIX_C_SOURCE" redefined
+In file included from /usr/include/assert.h:36,
+                 from src/_counter.c:25:
+/usr/include/features.h:168:1: warning: this is the location of the previous definition
+In file included from /usr/include/python2.6/pyconfig.h:6,
+                 from /usr/include/python2.6/Python.h:8,
+                 from src/_counter.c:28:
+/usr/include/python2.6/pyconfig-64.h:1043:1: warning: "_XOPEN_SOURCE" redefined
+In file included from /usr/include/assert.h:36,
+                 from src/_counter.c:25:
+/usr/include/features.h:170:1: warning: this is the location of the previous definition
+zip_safe flag not set; analyzing archive contents...
+Adding pycrypto 2.4.1 to easy-install.pth file
+
+Installed /home/developer/arcus/lib/python/site-packages/pycrypto-2.4.1-py2.6-linux-x86_64.egg
+Processing dependencies for pycrypto==2.4.1
+Finished processing dependencies for pycrypto==2.4.1
+Searching for fabric==1.8.3
+Reading https://pypi.python.org/simple/fabric/
+Best match: Fabric 1.8.3
+Downloading https://files.pythonhosted.org/packages/74/08/00991d4bc082adec7394953e2e2dc1e12e7fb71f8a74038c1904de34cab7/Fabric-1.8.3.tar.gz#sha256=651a07959bdabfb15fda2a6e6adebf473e57ff5b6f3f5d2894fa787c2b6fd202
+Processing Fabric-1.8.3.tar.gz
+Running Fabric-1.8.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-Cicqw_/Fabric-1.8.3/egg-dist-tmp-kEy3Ak
+warning: no previously-included files matching '*' found under directory 'docs/_build'
+warning: no previously-included files matching '*.pyc' found under directory 'tests'
+warning: no previously-included files matching '*.pyo' found under directory 'tests'
+zip_safe flag not set; analyzing archive contents...
+fabric.version: module references __file__
+Adding Fabric 1.8.3 to easy-install.pth file
+Installing fab script to /home/developer/arcus/lib/python/site-packages
+
+Installed /home/developer/arcus/lib/python/site-packages/Fabric-1.8.3-py2.6.egg
+Processing dependencies for fabric==1.8.3
+Searching for paramiko>=1.10,<1.13
+Reading https://pypi.python.org/simple/paramiko/
+Best match: paramiko 1.12.4
+Downloading https://files.pythonhosted.org/packages/88/12/4b0ec2f70b83773482c581a94f18e9bef5b4e2b42fc191644582818618ab/paramiko-1.12.4.tar.gz#sha256=12c672d1280fec02d7160afe42dd44c2e9868555ff8e1a028f10cf141ec2455f
+Processing paramiko-1.12.4.tar.gz
+Running paramiko-1.12.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-XOvNrq/paramiko-1.12.4/egg-dist-tmp-jmwBBT
+zip_safe flag not set; analyzing archive contents...
+Adding paramiko 1.12.4 to easy-install.pth file
+
+Installed /home/developer/arcus/lib/python/site-packages/paramiko-1.12.4-py2.6.egg
+Processing dependencies for paramiko>=1.10,<1.13
+Searching for ecdsa
+Reading https://pypi.python.org/simple/ecdsa/
+Best match: ecdsa 0.15
+Downloading https://files.pythonhosted.org/packages/e3/7c/b508ade1feb47cd79222e06d85e477f5cfc4fb0455ad3c70eb6330fc49aa/ecdsa-0.15.tar.gz#sha256=8f12ac317f8a1318efa75757ef0a651abe12e51fc1af8838fb91079445227277
+Processing ecdsa-0.15.tar.gz
+Running ecdsa-0.15/setup.py -q bdist_egg --dist-dir /tmp/easy_install-E2cfzR/ecdsa-0.15/egg-dist-tmp-9CfzL_
+/usr/lib64/python2.6/distutils/dist.py:266: UserWarning: Unknown distribution option: 'python_requires'
+  warnings.warn(msg)
+/usr/lib64/python2.6/distutils/dist.py:266: UserWarning: Unknown distribution option: 'long_description_content_type'
+  warnings.warn(msg)
+UPDATING build/lib/ecdsa/_version.py
+set build/lib/ecdsa/_version.py to '0.15'
+zip_safe flag not set; analyzing archive contents...
+Adding ecdsa 0.15 to easy-install.pth file
+
+Installed /home/developer/arcus/lib/python/site-packages/ecdsa-0.15-py2.6.egg
+Processing dependencies for ecdsa
+Searching for six==1.15.0
+Best match: six 1.15.0
+Processing six-1.15.0-py2.6.egg
+six 1.15.0 is already the active version in easy-install.pth
+
+Installed /home/developer/arcus/lib/python/site-packages/six-1.15.0-py2.6.egg
+Processing dependencies for six==1.15.0
+Finished processing dependencies for six==1.15.0
+Finished processing dependencies for ecdsa
+Searching for pycrypto==2.4.1
+Best match: pycrypto 2.4.1
+Processing pycrypto-2.4.1-py2.6-linux-x86_64.egg
+pycrypto 2.4.1 is already the active version in easy-install.pth
+
+Installed /home/developer/arcus/lib/python/site-packages/pycrypto-2.4.1-py2.6-linux-x86_64.egg
+Processing dependencies for pycrypto==2.4.1
+Finished processing dependencies for pycrypto==2.4.1
+Finished processing dependencies for paramiko>=1.10,<1.13
+Finished processing dependencies for fabric==1.8.3
+~/arcus/scripts ~/arcus/scripts
+~/arcus/scripts
